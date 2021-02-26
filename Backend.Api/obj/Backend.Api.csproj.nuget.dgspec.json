@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\Backend.Api\\Backend.Api.csproj": {}
+    "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\Backend.Api\\Backend.Api.csproj": {}
   },
   "projects": {
-    "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\Backend.Api\\Backend.Api.csproj": {
+    "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\Backend.Api\\Backend.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\Backend.Api\\Backend.Api.csproj",
+        "projectUniqueName": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\Backend.Api\\Backend.Api.csproj",
         "projectName": "Backend.Api",
-        "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\Backend.Api\\Backend.Api.csproj",
+        "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\Backend.Api\\Backend.Api.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\Backend.Api\\obj\\",
+        "outputPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\Backend.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\Backend.Infraestructure\\Backend.Infraestructure.csproj": {
-                "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\Backend.Infraestructure\\Backend.Infraestructure.csproj"
+              "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\Backend.Infraestructure\\Backend.Infraestructure.csproj": {
+                "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\Backend.Infraestructure\\Backend.Infraestructure.csproj"
               },
-              "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\BackendCore\\Backend.Core.csproj": {
-                "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\BackendCore\\Backend.Core.csproj"
+              "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\BackendCore\\Backend.Core.csproj": {
+                "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\BackendCore\\Backend.Core.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\Backend.Infraestructure\\Backend.Infraestructure.csproj": {
+    "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\Backend.Infraestructure\\Backend.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\Backend.Infraestructure\\Backend.Infraestructure.csproj",
+        "projectUniqueName": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\Backend.Infraestructure\\Backend.Infraestructure.csproj",
         "projectName": "Backend.Infraestructure",
-        "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\Backend.Infraestructure\\Backend.Infraestructure.csproj",
+        "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\Backend.Infraestructure\\Backend.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\Backend.Infraestructure\\obj\\",
+        "outputPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\Backend.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,8 +92,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\BackendCore\\Backend.Core.csproj": {
-                "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\BackendCore\\Backend.Core.csproj"
+              "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\BackendCore\\Backend.Core.csproj": {
+                "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\BackendCore\\Backend.Core.csproj"
               }
             }
           }
@@ -161,6 +161,12 @@
             "Serilog.Sinks.Seq": {
               "target": "Package",
               "version": "[5.0.0-dev-00174, )"
+            },
+            "docfx.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.56.6, )"
             }
           },
           "imports": [
@@ -177,14 +183,14 @@
         }
       }
     },
-    "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\BackendCore\\Backend.Core.csproj": {
+    "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\BackendCore\\Backend.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\BackendCore\\Backend.Core.csproj",
+        "projectUniqueName": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\BackendCore\\Backend.Core.csproj",
         "projectName": "Backend.Core",
-        "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\BackendCore\\Backend.Core.csproj",
+        "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\BackendCore\\Backend.Core.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\BackendCore\\obj\\",
+        "outputPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\BackendCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -22,7 +22,8 @@
           "Serilog.Enrichers.Thread": "3.1.0",
           "Serilog.Settings.Configuration": "3.1.0",
           "Serilog.Sinks.Console": "4.0.0-dev-00839",
-          "Serilog.Sinks.Seq": "5.0.0-dev-00174"
+          "Serilog.Sinks.Seq": "5.0.0-dev-00174",
+          "docfx.console": "2.56.6"
         },
         "runtime": {
           "Backend.Infraestructure.dll": {}
@@ -39,6 +40,7 @@
           }
         }
       },
+      "docfx.console/2.56.6": {},
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -1275,6 +1277,13 @@
       "sha512": "sha512-vLPwL2HZXp/DN17Eu7sg6GMEj02alq7jcy6atn5Gv8i96b9Hu1UoxlCrhInUPfSFLQQiD8O7pdWAE1fdUEO/1Q==",
       "path": "dapper/2.0.78",
       "hashPath": "dapper.2.0.78.nupkg.sha512"
+    },
+    "docfx.console/2.56.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yq/rcmRFI8WhXdb1yRZOhDwttiA51mWGjvqWq2YQKEkJjqnD0gthfMp1X5SZ2ynZxITYq3NIiZlSbGIqenQVqg==",
+      "path": "docfx.console/2.56.6",
+      "hashPath": "docfx.console.2.56.6.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "type": "package",

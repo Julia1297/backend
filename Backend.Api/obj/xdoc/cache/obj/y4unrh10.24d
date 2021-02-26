@@ -1,0 +1,2487 @@
+id: Backend.Api
+language: CSharp
+name:
+  Default: Backend.Api
+qualifiedName:
+  Default: Backend.Api
+type: Assembly
+modifiers: {}
+items:
+- id: Backend.Api
+  commentId: N:Backend.Api
+  language: CSharp
+  name:
+    CSharp: Backend.Api
+    VB: Backend.Api
+  nameWithType:
+    CSharp: Backend.Api
+    VB: Backend.Api
+  qualifiedName:
+    CSharp: Backend.Api
+    VB: Backend.Api
+  type: Namespace
+  assemblies:
+  - Backend.Api
+  modifiers: {}
+  items:
+  - id: Backend.Api.Program
+    commentId: T:Backend.Api.Program
+    language: CSharp
+    name:
+      CSharp: Program
+      VB: Program
+    nameWithType:
+      CSharp: Program
+      VB: Program
+    qualifiedName:
+      CSharp: Backend.Api.Program
+      VB: Backend.Api.Program
+    type: Class
+    assemblies:
+    - Backend.Api
+    namespace: Backend.Api
+    source:
+      remote:
+        path: Backend.Api/Program.cs
+        branch: main
+        repo: https://github.com/Julia1297/backend.git
+      id: Program
+      path: ../Backend.Api/Program.cs
+      startLine: 8
+    syntax:
+      content:
+        CSharp: public class Program
+        VB: Public Class Program
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Backend.Api.Program.Main(System.String[])
+      commentId: M:Backend.Api.Program.Main(System.String[])
+      language: CSharp
+      name:
+        CSharp: Main(String[])
+        VB: Main(String())
+      nameWithType:
+        CSharp: Program.Main(String[])
+        VB: Program.Main(String())
+      qualifiedName:
+        CSharp: Backend.Api.Program.Main(System.String[])
+        VB: Backend.Api.Program.Main(System.String())
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api
+      source:
+        remote:
+          path: Backend.Api/Program.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: Main
+        path: ../Backend.Api/Program.cs
+        startLine: 10
+      syntax:
+        content:
+          CSharp: public static void Main(string[] args)
+          VB: Public Shared Sub Main(args As String())
+        parameters:
+        - id: args
+          type: System.String[]
+      overload: Backend.Api.Program.Main*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+    - id: Backend.Api.Program.CreateHostBuilder(System.String[])
+      commentId: M:Backend.Api.Program.CreateHostBuilder(System.String[])
+      language: CSharp
+      name:
+        CSharp: CreateHostBuilder(String[])
+        VB: CreateHostBuilder(String())
+      nameWithType:
+        CSharp: Program.CreateHostBuilder(String[])
+        VB: Program.CreateHostBuilder(String())
+      qualifiedName:
+        CSharp: Backend.Api.Program.CreateHostBuilder(System.String[])
+        VB: Backend.Api.Program.CreateHostBuilder(System.String())
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api
+      source:
+        remote:
+          path: Backend.Api/Program.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: CreateHostBuilder
+        path: ../Backend.Api/Program.cs
+        startLine: 37
+      syntax:
+        content:
+          CSharp: public static IHostBuilder CreateHostBuilder(string[] args)
+          VB: Public Shared Function CreateHostBuilder(args As String()) As IHostBuilder
+        parameters:
+        - id: args
+          type: System.String[]
+        return:
+          type: Microsoft.Extensions.Hosting.IHostBuilder
+      overload: Backend.Api.Program.CreateHostBuilder*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+  - id: Backend.Api.Startup
+    commentId: T:Backend.Api.Startup
+    language: CSharp
+    name:
+      CSharp: Startup
+      VB: Startup
+    nameWithType:
+      CSharp: Startup
+      VB: Startup
+    qualifiedName:
+      CSharp: Backend.Api.Startup
+      VB: Backend.Api.Startup
+    type: Class
+    assemblies:
+    - Backend.Api
+    namespace: Backend.Api
+    source:
+      remote:
+        path: Backend.Api/Startup.cs
+        branch: main
+        repo: https://github.com/Julia1297/backend.git
+      id: Startup
+      path: ../Backend.Api/Startup.cs
+      startLine: 12
+    syntax:
+      content:
+        CSharp: public class Startup
+        VB: Public Class Startup
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Backend.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
+      commentId: M:Backend.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
+      language: CSharp
+      name:
+        CSharp: Startup(IConfiguration)
+        VB: Startup(IConfiguration)
+      nameWithType:
+        CSharp: Startup.Startup(IConfiguration)
+        VB: Startup.Startup(IConfiguration)
+      qualifiedName:
+        CSharp: Backend.Api.Startup.Startup(Microsoft.Extensions.Configuration.IConfiguration)
+        VB: Backend.Api.Startup.Startup(Microsoft.Extensions.Configuration.IConfiguration)
+      type: Constructor
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api
+      source:
+        remote:
+          path: Backend.Api/Startup.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: .ctor
+        path: ../Backend.Api/Startup.cs
+        startLine: 14
+      syntax:
+        content:
+          CSharp: public Startup(IConfiguration configuration)
+          VB: Public Sub New(configuration As IConfiguration)
+        parameters:
+        - id: configuration
+          type: Microsoft.Extensions.Configuration.IConfiguration
+      overload: Backend.Api.Startup.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Backend.Api.Startup.Configuration
+      commentId: P:Backend.Api.Startup.Configuration
+      language: CSharp
+      name:
+        CSharp: Configuration
+        VB: Configuration
+      nameWithType:
+        CSharp: Startup.Configuration
+        VB: Startup.Configuration
+      qualifiedName:
+        CSharp: Backend.Api.Startup.Configuration
+        VB: Backend.Api.Startup.Configuration
+      type: Property
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api
+      source:
+        remote:
+          path: Backend.Api/Startup.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: Configuration
+        path: ../Backend.Api/Startup.cs
+        startLine: 19
+      syntax:
+        content:
+          CSharp: public IConfiguration Configuration { get; }
+          VB: Public ReadOnly Property Configuration As IConfiguration
+        parameters: []
+        return:
+          type: Microsoft.Extensions.Configuration.IConfiguration
+      overload: Backend.Api.Startup.Configuration*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        VB:
+        - Public
+        - ReadOnly
+    - id: Backend.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+      commentId: M:Backend.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+      language: CSharp
+      name:
+        CSharp: ConfigureServices(IServiceCollection)
+        VB: ConfigureServices(IServiceCollection)
+      nameWithType:
+        CSharp: Startup.ConfigureServices(IServiceCollection)
+        VB: Startup.ConfigureServices(IServiceCollection)
+      qualifiedName:
+        CSharp: Backend.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+        VB: Backend.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api
+      source:
+        remote:
+          path: Backend.Api/Startup.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: ConfigureServices
+        path: ../Backend.Api/Startup.cs
+        startLine: 22
+      syntax:
+        content:
+          CSharp: public void ConfigureServices(IServiceCollection services)
+          VB: Public Sub ConfigureServices(services As IServiceCollection)
+        parameters:
+        - id: services
+          type: Microsoft.Extensions.DependencyInjection.IServiceCollection
+      overload: Backend.Api.Startup.ConfigureServices*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Backend.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+      commentId: M:Backend.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+      language: CSharp
+      name:
+        CSharp: Configure(IApplicationBuilder, IWebHostEnvironment)
+        VB: Configure(IApplicationBuilder, IWebHostEnvironment)
+      nameWithType:
+        CSharp: Startup.Configure(IApplicationBuilder, IWebHostEnvironment)
+        VB: Startup.Configure(IApplicationBuilder, IWebHostEnvironment)
+      qualifiedName:
+        CSharp: Backend.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+        VB: Backend.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api
+      source:
+        remote:
+          path: Backend.Api/Startup.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: Configure
+        path: ../Backend.Api/Startup.cs
+        startLine: 35
+      syntax:
+        content:
+          CSharp: public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+          VB: Public Sub Configure(app As IApplicationBuilder, env As IWebHostEnvironment)
+        parameters:
+        - id: app
+          type: Microsoft.AspNetCore.Builder.IApplicationBuilder
+        - id: env
+          type: Microsoft.AspNetCore.Hosting.IWebHostEnvironment
+      overload: Backend.Api.Startup.Configure*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+- id: Backend.Api.Controllers
+  commentId: N:Backend.Api.Controllers
+  language: CSharp
+  name:
+    CSharp: Backend.Api.Controllers
+    VB: Backend.Api.Controllers
+  nameWithType:
+    CSharp: Backend.Api.Controllers
+    VB: Backend.Api.Controllers
+  qualifiedName:
+    CSharp: Backend.Api.Controllers
+    VB: Backend.Api.Controllers
+  type: Namespace
+  assemblies:
+  - Backend.Api
+  modifiers: {}
+  items:
+  - id: Backend.Api.Controllers.EstudianteController
+    commentId: T:Backend.Api.Controllers.EstudianteController
+    language: CSharp
+    name:
+      CSharp: EstudianteController
+      VB: EstudianteController
+    nameWithType:
+      CSharp: EstudianteController
+      VB: EstudianteController
+    qualifiedName:
+      CSharp: Backend.Api.Controllers.EstudianteController
+      VB: Backend.Api.Controllers.EstudianteController
+    type: Class
+    assemblies:
+    - Backend.Api
+    namespace: Backend.Api.Controllers
+    source:
+      remote:
+        path: Backend.Api/Controllers/EstudianteController.cs
+        branch: main
+        repo: https://github.com/Julia1297/backend.git
+      id: EstudianteController
+      path: ../Backend.Api/Controllers/EstudianteController.cs
+      startLine: 10
+    syntax:
+      content:
+        CSharp: >-
+          [Route("api/Estudiante")]
+
+          [ApiController]
+
+          public class EstudianteController : ControllerBase
+        VB: >-
+          <Route("api/Estudiante")>
+
+          <ApiController>
+
+          Public Class EstudianteController
+
+              Inherits ControllerBase
+    inheritance:
+    - System.Object
+    - Microsoft.AspNetCore.Mvc.ControllerBase
+    attributes:
+    - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+      ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+      arguments:
+      - type: System.String
+        value: api/Estudiante
+    - type: Microsoft.AspNetCore.Mvc.ApiControllerAttribute
+      ctor: Microsoft.AspNetCore.Mvc.ApiControllerAttribute.#ctor
+      arguments: []
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Backend.Api.Controllers.EstudianteController.#ctor(Backend.Core.Interfaces.IEstudianteRepository,Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.EstudianteController})
+      commentId: M:Backend.Api.Controllers.EstudianteController.#ctor(Backend.Core.Interfaces.IEstudianteRepository,Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.EstudianteController})
+      language: CSharp
+      name:
+        CSharp: EstudianteController(IEstudianteRepository, ILogger<EstudianteController>)
+        VB: EstudianteController(IEstudianteRepository, ILogger(Of EstudianteController))
+      nameWithType:
+        CSharp: EstudianteController.EstudianteController(IEstudianteRepository, ILogger<EstudianteController>)
+        VB: EstudianteController.EstudianteController(IEstudianteRepository, ILogger(Of EstudianteController))
+      qualifiedName:
+        CSharp: Backend.Api.Controllers.EstudianteController.EstudianteController(Backend.Core.Interfaces.IEstudianteRepository, Microsoft.Extensions.Logging.ILogger<Backend.Api.Controllers.EstudianteController>)
+        VB: Backend.Api.Controllers.EstudianteController.EstudianteController(Backend.Core.Interfaces.IEstudianteRepository, Microsoft.Extensions.Logging.ILogger(Of Backend.Api.Controllers.EstudianteController))
+      type: Constructor
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api.Controllers
+      source:
+        remote:
+          path: Backend.Api/Controllers/EstudianteController.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: .ctor
+        path: ../Backend.Api/Controllers/EstudianteController.cs
+        startLine: 17
+      syntax:
+        content:
+          CSharp: public EstudianteController(IEstudianteRepository estudianteRepository, ILogger<EstudianteController> logger)
+          VB: Public Sub New(estudianteRepository As IEstudianteRepository, logger As ILogger(Of EstudianteController))
+        parameters:
+        - id: estudianteRepository
+          type: Backend.Core.Interfaces.IEstudianteRepository
+        - id: logger
+          type: Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.EstudianteController}
+      overload: Backend.Api.Controllers.EstudianteController.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Backend.Api.Controllers.EstudianteController.GetEstudiantes
+      commentId: M:Backend.Api.Controllers.EstudianteController.GetEstudiantes
+      language: CSharp
+      name:
+        CSharp: GetEstudiantes()
+        VB: GetEstudiantes()
+      nameWithType:
+        CSharp: EstudianteController.GetEstudiantes()
+        VB: EstudianteController.GetEstudiantes()
+      qualifiedName:
+        CSharp: Backend.Api.Controllers.EstudianteController.GetEstudiantes()
+        VB: Backend.Api.Controllers.EstudianteController.GetEstudiantes()
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api.Controllers
+      source:
+        remote:
+          path: Backend.Api/Controllers/EstudianteController.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: GetEstudiantes
+        path: ../Backend.Api/Controllers/EstudianteController.cs
+        startLine: 22
+      syntax:
+        content:
+          CSharp: >-
+            [HttpGet]
+
+            [Route("GetEstudiantes")]
+
+            public Task<IActionResult> GetEstudiantes()
+          VB: >-
+            <HttpGet>
+
+            <Route("GetEstudiantes")>
+
+            Public Function GetEstudiantes As Task(Of IActionResult)
+        return:
+          type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+      overload: Backend.Api.Controllers.EstudianteController.GetEstudiantes*
+      attributes:
+      - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+        ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor
+        arguments: []
+      - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+        ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+        arguments:
+        - type: System.String
+          value: GetEstudiantes
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Backend.Api.Controllers.EstudianteController.AddEstudiante(Backend.Core.Entities.Estudiante)
+      commentId: M:Backend.Api.Controllers.EstudianteController.AddEstudiante(Backend.Core.Entities.Estudiante)
+      language: CSharp
+      name:
+        CSharp: AddEstudiante(Estudiante)
+        VB: AddEstudiante(Estudiante)
+      nameWithType:
+        CSharp: EstudianteController.AddEstudiante(Estudiante)
+        VB: EstudianteController.AddEstudiante(Estudiante)
+      qualifiedName:
+        CSharp: Backend.Api.Controllers.EstudianteController.AddEstudiante(Backend.Core.Entities.Estudiante)
+        VB: Backend.Api.Controllers.EstudianteController.AddEstudiante(Backend.Core.Entities.Estudiante)
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api.Controllers
+      source:
+        remote:
+          path: Backend.Api/Controllers/EstudianteController.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: AddEstudiante
+        path: ../Backend.Api/Controllers/EstudianteController.cs
+        startLine: 39
+      syntax:
+        content:
+          CSharp: >-
+            [HttpPost]
+
+            [Route("AddEstudiante")]
+
+            public Task<IActionResult> AddEstudiante(Estudiante estudiante)
+          VB: >-
+            <HttpPost>
+
+            <Route("AddEstudiante")>
+
+            Public Function AddEstudiante(estudiante As Estudiante) As Task(Of IActionResult)
+        parameters:
+        - id: estudiante
+          type: Backend.Core.Entities.Estudiante
+        return:
+          type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+      overload: Backend.Api.Controllers.EstudianteController.AddEstudiante*
+      attributes:
+      - type: Microsoft.AspNetCore.Mvc.HttpPostAttribute
+        ctor: Microsoft.AspNetCore.Mvc.HttpPostAttribute.#ctor
+        arguments: []
+      - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+        ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+        arguments:
+        - type: System.String
+          value: AddEstudiante
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Backend.Api.Controllers.EstudianteController.GenerateData
+      commentId: M:Backend.Api.Controllers.EstudianteController.GenerateData
+      language: CSharp
+      name:
+        CSharp: GenerateData()
+        VB: GenerateData()
+      nameWithType:
+        CSharp: EstudianteController.GenerateData()
+        VB: EstudianteController.GenerateData()
+      qualifiedName:
+        CSharp: Backend.Api.Controllers.EstudianteController.GenerateData()
+        VB: Backend.Api.Controllers.EstudianteController.GenerateData()
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api.Controllers
+      source:
+        remote:
+          path: Backend.Api/Controllers/EstudianteController.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: GenerateData
+        path: ../Backend.Api/Controllers/EstudianteController.cs
+        startLine: 56
+      syntax:
+        content:
+          CSharp: >-
+            [HttpGet]
+
+            [Route("GenerateData")]
+
+            public Task<IActionResult> GenerateData()
+          VB: >-
+            <HttpGet>
+
+            <Route("GenerateData")>
+
+            Public Function GenerateData As Task(Of IActionResult)
+        return:
+          type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+      overload: Backend.Api.Controllers.EstudianteController.GenerateData*
+      attributes:
+      - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+        ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor
+        arguments: []
+      - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+        ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+        arguments:
+        - type: System.String
+          value: GenerateData
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Backend.Api.Controllers.InscripcionController
+    commentId: T:Backend.Api.Controllers.InscripcionController
+    language: CSharp
+    name:
+      CSharp: InscripcionController
+      VB: InscripcionController
+    nameWithType:
+      CSharp: InscripcionController
+      VB: InscripcionController
+    qualifiedName:
+      CSharp: Backend.Api.Controllers.InscripcionController
+      VB: Backend.Api.Controllers.InscripcionController
+    type: Class
+    assemblies:
+    - Backend.Api
+    namespace: Backend.Api.Controllers
+    source:
+      remote:
+        path: Backend.Api/Controllers/InscripcionController.cs
+        branch: main
+        repo: https://github.com/Julia1297/backend.git
+      id: InscripcionController
+      path: ../Backend.Api/Controllers/InscripcionController.cs
+      startLine: 10
+    syntax:
+      content:
+        CSharp: >-
+          [Route("api/Inscripcion")]
+
+          [ApiController]
+
+          public class InscripcionController : ControllerBase
+        VB: >-
+          <Route("api/Inscripcion")>
+
+          <ApiController>
+
+          Public Class InscripcionController
+
+              Inherits ControllerBase
+    inheritance:
+    - System.Object
+    - Microsoft.AspNetCore.Mvc.ControllerBase
+    attributes:
+    - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+      ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+      arguments:
+      - type: System.String
+        value: api/Inscripcion
+    - type: Microsoft.AspNetCore.Mvc.ApiControllerAttribute
+      ctor: Microsoft.AspNetCore.Mvc.ApiControllerAttribute.#ctor
+      arguments: []
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Backend.Api.Controllers.InscripcionController.#ctor(Backend.Core.Interfaces.IInscripcionRepository,Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.InscripcionController})
+      commentId: M:Backend.Api.Controllers.InscripcionController.#ctor(Backend.Core.Interfaces.IInscripcionRepository,Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.InscripcionController})
+      language: CSharp
+      name:
+        CSharp: InscripcionController(IInscripcionRepository, ILogger<InscripcionController>)
+        VB: InscripcionController(IInscripcionRepository, ILogger(Of InscripcionController))
+      nameWithType:
+        CSharp: InscripcionController.InscripcionController(IInscripcionRepository, ILogger<InscripcionController>)
+        VB: InscripcionController.InscripcionController(IInscripcionRepository, ILogger(Of InscripcionController))
+      qualifiedName:
+        CSharp: Backend.Api.Controllers.InscripcionController.InscripcionController(Backend.Core.Interfaces.IInscripcionRepository, Microsoft.Extensions.Logging.ILogger<Backend.Api.Controllers.InscripcionController>)
+        VB: Backend.Api.Controllers.InscripcionController.InscripcionController(Backend.Core.Interfaces.IInscripcionRepository, Microsoft.Extensions.Logging.ILogger(Of Backend.Api.Controllers.InscripcionController))
+      type: Constructor
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api.Controllers
+      source:
+        remote:
+          path: Backend.Api/Controllers/InscripcionController.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: .ctor
+        path: ../Backend.Api/Controllers/InscripcionController.cs
+        startLine: 17
+      syntax:
+        content:
+          CSharp: public InscripcionController(IInscripcionRepository inscripcionRepository, ILogger<InscripcionController> logger)
+          VB: Public Sub New(inscripcionRepository As IInscripcionRepository, logger As ILogger(Of InscripcionController))
+        parameters:
+        - id: inscripcionRepository
+          type: Backend.Core.Interfaces.IInscripcionRepository
+        - id: logger
+          type: Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.InscripcionController}
+      overload: Backend.Api.Controllers.InscripcionController.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Backend.Api.Controllers.InscripcionController.GetInscripciones
+      commentId: M:Backend.Api.Controllers.InscripcionController.GetInscripciones
+      language: CSharp
+      name:
+        CSharp: GetInscripciones()
+        VB: GetInscripciones()
+      nameWithType:
+        CSharp: InscripcionController.GetInscripciones()
+        VB: InscripcionController.GetInscripciones()
+      qualifiedName:
+        CSharp: Backend.Api.Controllers.InscripcionController.GetInscripciones()
+        VB: Backend.Api.Controllers.InscripcionController.GetInscripciones()
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api.Controllers
+      source:
+        remote:
+          path: Backend.Api/Controllers/InscripcionController.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: GetInscripciones
+        path: ../Backend.Api/Controllers/InscripcionController.cs
+        startLine: 29
+      summary: "\nDevuelve todas las inscripciones realizadas.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: >-
+            [HttpGet]
+
+            [Route("GetInscripciones")]
+
+            public Task<IActionResult> GetInscripciones()
+          VB: >-
+            <HttpGet>
+
+            <Route("GetInscripciones")>
+
+            Public Function GetInscripciones As Task(Of IActionResult)
+        return:
+          type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+      overload: Backend.Api.Controllers.InscripcionController.GetInscripciones*
+      attributes:
+      - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+        ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor
+        arguments: []
+      - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+        ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+        arguments:
+        - type: System.String
+          value: GetInscripciones
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Backend.Api.Controllers.InscripcionController.GetMateriasEstudiante(System.Int32)
+      commentId: M:Backend.Api.Controllers.InscripcionController.GetMateriasEstudiante(System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetMateriasEstudiante(Int32)
+        VB: GetMateriasEstudiante(Int32)
+      nameWithType:
+        CSharp: InscripcionController.GetMateriasEstudiante(Int32)
+        VB: InscripcionController.GetMateriasEstudiante(Int32)
+      qualifiedName:
+        CSharp: Backend.Api.Controllers.InscripcionController.GetMateriasEstudiante(System.Int32)
+        VB: Backend.Api.Controllers.InscripcionController.GetMateriasEstudiante(System.Int32)
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api.Controllers
+      source:
+        remote:
+          path: Backend.Api/Controllers/InscripcionController.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: GetMateriasEstudiante
+        path: ../Backend.Api/Controllers/InscripcionController.cs
+        startLine: 47
+      syntax:
+        content:
+          CSharp: >-
+            [HttpGet]
+
+            [Route("GetMateriasEstudiante")]
+
+            public Task<IActionResult> GetMateriasEstudiante(int IdEstudiante)
+          VB: >-
+            <HttpGet>
+
+            <Route("GetMateriasEstudiante")>
+
+            Public Function GetMateriasEstudiante(IdEstudiante As Integer) As Task(Of IActionResult)
+        parameters:
+        - id: IdEstudiante
+          type: System.Int32
+        return:
+          type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+      overload: Backend.Api.Controllers.InscripcionController.GetMateriasEstudiante*
+      attributes:
+      - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+        ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor
+        arguments: []
+      - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+        ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+        arguments:
+        - type: System.String
+          value: GetMateriasEstudiante
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Backend.Api.Controllers.InscripcionController.GetEstudiantesMateria(System.Int32)
+      commentId: M:Backend.Api.Controllers.InscripcionController.GetEstudiantesMateria(System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetEstudiantesMateria(Int32)
+        VB: GetEstudiantesMateria(Int32)
+      nameWithType:
+        CSharp: InscripcionController.GetEstudiantesMateria(Int32)
+        VB: InscripcionController.GetEstudiantesMateria(Int32)
+      qualifiedName:
+        CSharp: Backend.Api.Controllers.InscripcionController.GetEstudiantesMateria(System.Int32)
+        VB: Backend.Api.Controllers.InscripcionController.GetEstudiantesMateria(System.Int32)
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api.Controllers
+      source:
+        remote:
+          path: Backend.Api/Controllers/InscripcionController.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: GetEstudiantesMateria
+        path: ../Backend.Api/Controllers/InscripcionController.cs
+        startLine: 64
+      syntax:
+        content:
+          CSharp: >-
+            [HttpGet]
+
+            [Route("GetEstudiantesMateria")]
+
+            public Task<IActionResult> GetEstudiantesMateria(int IdMateria)
+          VB: >-
+            <HttpGet>
+
+            <Route("GetEstudiantesMateria")>
+
+            Public Function GetEstudiantesMateria(IdMateria As Integer) As Task(Of IActionResult)
+        parameters:
+        - id: IdMateria
+          type: System.Int32
+        return:
+          type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+      overload: Backend.Api.Controllers.InscripcionController.GetEstudiantesMateria*
+      attributes:
+      - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+        ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor
+        arguments: []
+      - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+        ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+        arguments:
+        - type: System.String
+          value: GetEstudiantesMateria
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Backend.Api.Controllers.InscripcionController.AddInscripcion(Backend.Core.Entities.Inscripcion)
+      commentId: M:Backend.Api.Controllers.InscripcionController.AddInscripcion(Backend.Core.Entities.Inscripcion)
+      language: CSharp
+      name:
+        CSharp: AddInscripcion(Inscripcion)
+        VB: AddInscripcion(Inscripcion)
+      nameWithType:
+        CSharp: InscripcionController.AddInscripcion(Inscripcion)
+        VB: InscripcionController.AddInscripcion(Inscripcion)
+      qualifiedName:
+        CSharp: Backend.Api.Controllers.InscripcionController.AddInscripcion(Backend.Core.Entities.Inscripcion)
+        VB: Backend.Api.Controllers.InscripcionController.AddInscripcion(Backend.Core.Entities.Inscripcion)
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api.Controllers
+      source:
+        remote:
+          path: Backend.Api/Controllers/InscripcionController.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: AddInscripcion
+        path: ../Backend.Api/Controllers/InscripcionController.cs
+        startLine: 85
+      summary: "\nRegistra una inscripcion.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: >-
+            [HttpPost]
+
+            [Route("AddInscripcion")]
+
+            public Task<IActionResult> AddInscripcion(Inscripcion inscripcion)
+          VB: >-
+            <HttpPost>
+
+            <Route("AddInscripcion")>
+
+            Public Function AddInscripcion(inscripcion As Inscripcion) As Task(Of IActionResult)
+        parameters:
+        - id: inscripcion
+          type: Backend.Core.Entities.Inscripcion
+          description: Es la inscripcion que se realizara <xref href="Backend.Core.Entities.Inscripcion" data-throw-if-not-resolved="false"></xref>
+        return:
+          type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+          description: Just returns bar.
+      overload: Backend.Api.Controllers.InscripcionController.AddInscripcion*
+      attributes:
+      - type: Microsoft.AspNetCore.Mvc.HttpPostAttribute
+        ctor: Microsoft.AspNetCore.Mvc.HttpPostAttribute.#ctor
+        arguments: []
+      - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+        ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+        arguments:
+        - type: System.String
+          value: AddInscripcion
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+      references:
+        Backend.Core.Entities.Inscripcion: 
+    - id: Backend.Api.Controllers.InscripcionController.UpdateInscripcion(Backend.Core.Entities.Inscripcion)
+      commentId: M:Backend.Api.Controllers.InscripcionController.UpdateInscripcion(Backend.Core.Entities.Inscripcion)
+      language: CSharp
+      name:
+        CSharp: UpdateInscripcion(Inscripcion)
+        VB: UpdateInscripcion(Inscripcion)
+      nameWithType:
+        CSharp: InscripcionController.UpdateInscripcion(Inscripcion)
+        VB: InscripcionController.UpdateInscripcion(Inscripcion)
+      qualifiedName:
+        CSharp: Backend.Api.Controllers.InscripcionController.UpdateInscripcion(Backend.Core.Entities.Inscripcion)
+        VB: Backend.Api.Controllers.InscripcionController.UpdateInscripcion(Backend.Core.Entities.Inscripcion)
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api.Controllers
+      source:
+        remote:
+          path: Backend.Api/Controllers/InscripcionController.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: UpdateInscripcion
+        path: ../Backend.Api/Controllers/InscripcionController.cs
+        startLine: 102
+      syntax:
+        content:
+          CSharp: >-
+            [HttpPut]
+
+            [Route("UpdateInscripcion")]
+
+            public Task<IActionResult> UpdateInscripcion(Inscripcion inscripcion)
+          VB: >-
+            <HttpPut>
+
+            <Route("UpdateInscripcion")>
+
+            Public Function UpdateInscripcion(inscripcion As Inscripcion) As Task(Of IActionResult)
+        parameters:
+        - id: inscripcion
+          type: Backend.Core.Entities.Inscripcion
+        return:
+          type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+      overload: Backend.Api.Controllers.InscripcionController.UpdateInscripcion*
+      attributes:
+      - type: Microsoft.AspNetCore.Mvc.HttpPutAttribute
+        ctor: Microsoft.AspNetCore.Mvc.HttpPutAttribute.#ctor
+        arguments: []
+      - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+        ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+        arguments:
+        - type: System.String
+          value: UpdateInscripcion
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Backend.Api.Controllers.InscripcionController.DeleteInscripcion(System.Int32)
+      commentId: M:Backend.Api.Controllers.InscripcionController.DeleteInscripcion(System.Int32)
+      language: CSharp
+      name:
+        CSharp: DeleteInscripcion(Int32)
+        VB: DeleteInscripcion(Int32)
+      nameWithType:
+        CSharp: InscripcionController.DeleteInscripcion(Int32)
+        VB: InscripcionController.DeleteInscripcion(Int32)
+      qualifiedName:
+        CSharp: Backend.Api.Controllers.InscripcionController.DeleteInscripcion(System.Int32)
+        VB: Backend.Api.Controllers.InscripcionController.DeleteInscripcion(System.Int32)
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api.Controllers
+      source:
+        remote:
+          path: Backend.Api/Controllers/InscripcionController.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: DeleteInscripcion
+        path: ../Backend.Api/Controllers/InscripcionController.cs
+        startLine: 124
+      summary: "\nBorra una inscripcion en base al Id.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: >-
+            [HttpDelete]
+
+            [Route("DeleteInscripcion")]
+
+            public Task<IActionResult> DeleteInscripcion(int idInscripcion)
+          VB: >-
+            <HttpDelete>
+
+            <Route("DeleteInscripcion")>
+
+            Public Function DeleteInscripcion(idInscripcion As Integer) As Task(Of IActionResult)
+        parameters:
+        - id: idInscripcion
+          type: System.Int32
+          description: 'Es el Id de la inscripcion a borrar '
+        return:
+          type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+          description: Just returns bar.
+      overload: Backend.Api.Controllers.InscripcionController.DeleteInscripcion*
+      attributes:
+      - type: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute
+        ctor: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute.#ctor
+        arguments: []
+      - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+        ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+        arguments:
+        - type: System.String
+          value: DeleteInscripcion
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+  - id: Backend.Api.Controllers.MateriaController
+    commentId: T:Backend.Api.Controllers.MateriaController
+    language: CSharp
+    name:
+      CSharp: MateriaController
+      VB: MateriaController
+    nameWithType:
+      CSharp: MateriaController
+      VB: MateriaController
+    qualifiedName:
+      CSharp: Backend.Api.Controllers.MateriaController
+      VB: Backend.Api.Controllers.MateriaController
+    type: Class
+    assemblies:
+    - Backend.Api
+    namespace: Backend.Api.Controllers
+    source:
+      remote:
+        path: Backend.Api/Controllers/MateriaController.cs
+        branch: main
+        repo: https://github.com/Julia1297/backend.git
+      id: MateriaController
+      path: ../Backend.Api/Controllers/MateriaController.cs
+      startLine: 9
+    syntax:
+      content:
+        CSharp: >-
+          [Route("api/Materia")]
+
+          [ApiController]
+
+          public class MateriaController : ControllerBase
+        VB: >-
+          <Route("api/Materia")>
+
+          <ApiController>
+
+          Public Class MateriaController
+
+              Inherits ControllerBase
+    inheritance:
+    - System.Object
+    - Microsoft.AspNetCore.Mvc.ControllerBase
+    attributes:
+    - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+      ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+      arguments:
+      - type: System.String
+        value: api/Materia
+    - type: Microsoft.AspNetCore.Mvc.ApiControllerAttribute
+      ctor: Microsoft.AspNetCore.Mvc.ApiControllerAttribute.#ctor
+      arguments: []
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Backend.Api.Controllers.MateriaController.#ctor(Backend.Core.Interfaces.IMateriaRepository,Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.MateriaController})
+      commentId: M:Backend.Api.Controllers.MateriaController.#ctor(Backend.Core.Interfaces.IMateriaRepository,Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.MateriaController})
+      language: CSharp
+      name:
+        CSharp: MateriaController(IMateriaRepository, ILogger<MateriaController>)
+        VB: MateriaController(IMateriaRepository, ILogger(Of MateriaController))
+      nameWithType:
+        CSharp: MateriaController.MateriaController(IMateriaRepository, ILogger<MateriaController>)
+        VB: MateriaController.MateriaController(IMateriaRepository, ILogger(Of MateriaController))
+      qualifiedName:
+        CSharp: Backend.Api.Controllers.MateriaController.MateriaController(Backend.Core.Interfaces.IMateriaRepository, Microsoft.Extensions.Logging.ILogger<Backend.Api.Controllers.MateriaController>)
+        VB: Backend.Api.Controllers.MateriaController.MateriaController(Backend.Core.Interfaces.IMateriaRepository, Microsoft.Extensions.Logging.ILogger(Of Backend.Api.Controllers.MateriaController))
+      type: Constructor
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api.Controllers
+      source:
+        remote:
+          path: Backend.Api/Controllers/MateriaController.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: .ctor
+        path: ../Backend.Api/Controllers/MateriaController.cs
+        startLine: 16
+      syntax:
+        content:
+          CSharp: public MateriaController(IMateriaRepository materiaRepository, ILogger<MateriaController> logger)
+          VB: Public Sub New(materiaRepository As IMateriaRepository, logger As ILogger(Of MateriaController))
+        parameters:
+        - id: materiaRepository
+          type: Backend.Core.Interfaces.IMateriaRepository
+        - id: logger
+          type: Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.MateriaController}
+      overload: Backend.Api.Controllers.MateriaController.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Backend.Api.Controllers.MateriaController.GetMaterias
+      commentId: M:Backend.Api.Controllers.MateriaController.GetMaterias
+      language: CSharp
+      name:
+        CSharp: GetMaterias()
+        VB: GetMaterias()
+      nameWithType:
+        CSharp: MateriaController.GetMaterias()
+        VB: MateriaController.GetMaterias()
+      qualifiedName:
+        CSharp: Backend.Api.Controllers.MateriaController.GetMaterias()
+        VB: Backend.Api.Controllers.MateriaController.GetMaterias()
+      type: Method
+      assemblies:
+      - Backend.Api
+      namespace: Backend.Api.Controllers
+      source:
+        remote:
+          path: Backend.Api/Controllers/MateriaController.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: GetMaterias
+        path: ../Backend.Api/Controllers/MateriaController.cs
+        startLine: 22
+      syntax:
+        content:
+          CSharp: >-
+            [HttpGet]
+
+            [Route("GetMaterias")]
+
+            public Task<IActionResult> GetMaterias()
+          VB: >-
+            <HttpGet>
+
+            <Route("GetMaterias")>
+
+            Public Function GetMaterias As Task(Of IActionResult)
+        return:
+          type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+      overload: Backend.Api.Controllers.MateriaController.GetMaterias*
+      attributes:
+      - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+        ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor
+        arguments: []
+      - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+        ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+        arguments:
+        - type: System.String
+          value: GetMaterias
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.String[]:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '[]'
+        nameWithType: '[]'
+        qualifiedName: '[]'
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: ()
+        nameWithType: ()
+        qualifiedName: ()
+    isDefinition: false
+  Backend.Api.Program.Main*:
+    name:
+      CSharp:
+      - id: Backend.Api.Program.Main*
+        name: Main
+        nameWithType: Program.Main
+        qualifiedName: Backend.Api.Program.Main
+      VB:
+      - id: Backend.Api.Program.Main*
+        name: Main
+        nameWithType: Program.Main
+        qualifiedName: Backend.Api.Program.Main
+    isDefinition: true
+    commentId: Overload:Backend.Api.Program.Main
+  Microsoft.Extensions.Hosting:
+    name:
+      CSharp:
+      - name: Microsoft.Extensions.Hosting
+        nameWithType: Microsoft.Extensions.Hosting
+        qualifiedName: Microsoft.Extensions.Hosting
+        isExternal: true
+      VB:
+      - name: Microsoft.Extensions.Hosting
+        nameWithType: Microsoft.Extensions.Hosting
+        qualifiedName: Microsoft.Extensions.Hosting
+    isDefinition: true
+    commentId: N:Microsoft.Extensions.Hosting
+  Microsoft.Extensions.Hosting.IHostBuilder:
+    name:
+      CSharp:
+      - id: Microsoft.Extensions.Hosting.IHostBuilder
+        name: IHostBuilder
+        nameWithType: IHostBuilder
+        qualifiedName: Microsoft.Extensions.Hosting.IHostBuilder
+        isExternal: true
+      VB:
+      - id: Microsoft.Extensions.Hosting.IHostBuilder
+        name: IHostBuilder
+        nameWithType: IHostBuilder
+        qualifiedName: Microsoft.Extensions.Hosting.IHostBuilder
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.Extensions.Hosting
+    commentId: T:Microsoft.Extensions.Hosting.IHostBuilder
+  Backend.Api.Program.CreateHostBuilder*:
+    name:
+      CSharp:
+      - id: Backend.Api.Program.CreateHostBuilder*
+        name: CreateHostBuilder
+        nameWithType: Program.CreateHostBuilder
+        qualifiedName: Backend.Api.Program.CreateHostBuilder
+      VB:
+      - id: Backend.Api.Program.CreateHostBuilder*
+        name: CreateHostBuilder
+        nameWithType: Program.CreateHostBuilder
+        qualifiedName: Backend.Api.Program.CreateHostBuilder
+    isDefinition: true
+    commentId: Overload:Backend.Api.Program.CreateHostBuilder
+  Backend.Api.Program:
+    name:
+      CSharp:
+      - id: Backend.Api.Program
+        name: Program
+        nameWithType: Program
+        qualifiedName: Backend.Api.Program
+      VB:
+      - id: Backend.Api.Program
+        name: Program
+        nameWithType: Program
+        qualifiedName: Backend.Api.Program
+    isDefinition: true
+    commentId: T:Backend.Api.Program
+  Microsoft.Extensions.Configuration:
+    name:
+      CSharp:
+      - name: Microsoft.Extensions.Configuration
+        nameWithType: Microsoft.Extensions.Configuration
+        qualifiedName: Microsoft.Extensions.Configuration
+        isExternal: true
+      VB:
+      - name: Microsoft.Extensions.Configuration
+        nameWithType: Microsoft.Extensions.Configuration
+        qualifiedName: Microsoft.Extensions.Configuration
+    isDefinition: true
+    commentId: N:Microsoft.Extensions.Configuration
+  Microsoft.Extensions.Configuration.IConfiguration:
+    name:
+      CSharp:
+      - id: Microsoft.Extensions.Configuration.IConfiguration
+        name: IConfiguration
+        nameWithType: IConfiguration
+        qualifiedName: Microsoft.Extensions.Configuration.IConfiguration
+        isExternal: true
+      VB:
+      - id: Microsoft.Extensions.Configuration.IConfiguration
+        name: IConfiguration
+        nameWithType: IConfiguration
+        qualifiedName: Microsoft.Extensions.Configuration.IConfiguration
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.Extensions.Configuration
+    commentId: T:Microsoft.Extensions.Configuration.IConfiguration
+  Backend.Api.Startup.#ctor*:
+    name:
+      CSharp:
+      - id: Backend.Api.Startup.#ctor*
+        name: Startup
+        nameWithType: Startup.Startup
+        qualifiedName: Backend.Api.Startup.Startup
+      VB:
+      - id: Backend.Api.Startup.#ctor*
+        name: Startup
+        nameWithType: Startup.Startup
+        qualifiedName: Backend.Api.Startup.Startup
+    isDefinition: true
+    commentId: Overload:Backend.Api.Startup.#ctor
+  Backend.Api.Startup.Configuration*:
+    name:
+      CSharp:
+      - id: Backend.Api.Startup.Configuration*
+        name: Configuration
+        nameWithType: Startup.Configuration
+        qualifiedName: Backend.Api.Startup.Configuration
+      VB:
+      - id: Backend.Api.Startup.Configuration*
+        name: Configuration
+        nameWithType: Startup.Configuration
+        qualifiedName: Backend.Api.Startup.Configuration
+    isDefinition: true
+    commentId: Overload:Backend.Api.Startup.Configuration
+  Microsoft.Extensions.DependencyInjection:
+    name:
+      CSharp:
+      - name: Microsoft.Extensions.DependencyInjection
+        nameWithType: Microsoft.Extensions.DependencyInjection
+        qualifiedName: Microsoft.Extensions.DependencyInjection
+        isExternal: true
+      VB:
+      - name: Microsoft.Extensions.DependencyInjection
+        nameWithType: Microsoft.Extensions.DependencyInjection
+        qualifiedName: Microsoft.Extensions.DependencyInjection
+    isDefinition: true
+    commentId: N:Microsoft.Extensions.DependencyInjection
+  Microsoft.Extensions.DependencyInjection.IServiceCollection:
+    name:
+      CSharp:
+      - id: Microsoft.Extensions.DependencyInjection.IServiceCollection
+        name: IServiceCollection
+        nameWithType: IServiceCollection
+        qualifiedName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+        isExternal: true
+      VB:
+      - id: Microsoft.Extensions.DependencyInjection.IServiceCollection
+        name: IServiceCollection
+        nameWithType: IServiceCollection
+        qualifiedName: Microsoft.Extensions.DependencyInjection.IServiceCollection
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.Extensions.DependencyInjection
+    commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
+  Backend.Api.Startup.ConfigureServices*:
+    name:
+      CSharp:
+      - id: Backend.Api.Startup.ConfigureServices*
+        name: ConfigureServices
+        nameWithType: Startup.ConfigureServices
+        qualifiedName: Backend.Api.Startup.ConfigureServices
+      VB:
+      - id: Backend.Api.Startup.ConfigureServices*
+        name: ConfigureServices
+        nameWithType: Startup.ConfigureServices
+        qualifiedName: Backend.Api.Startup.ConfigureServices
+    isDefinition: true
+    commentId: Overload:Backend.Api.Startup.ConfigureServices
+  Microsoft.AspNetCore.Builder:
+    name:
+      CSharp:
+      - name: Microsoft.AspNetCore.Builder
+        nameWithType: Microsoft.AspNetCore.Builder
+        qualifiedName: Microsoft.AspNetCore.Builder
+        isExternal: true
+      VB:
+      - name: Microsoft.AspNetCore.Builder
+        nameWithType: Microsoft.AspNetCore.Builder
+        qualifiedName: Microsoft.AspNetCore.Builder
+    isDefinition: true
+    commentId: N:Microsoft.AspNetCore.Builder
+  Microsoft.AspNetCore.Builder.IApplicationBuilder:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Builder.IApplicationBuilder
+        name: IApplicationBuilder
+        nameWithType: IApplicationBuilder
+        qualifiedName: Microsoft.AspNetCore.Builder.IApplicationBuilder
+        isExternal: true
+      VB:
+      - id: Microsoft.AspNetCore.Builder.IApplicationBuilder
+        name: IApplicationBuilder
+        nameWithType: IApplicationBuilder
+        qualifiedName: Microsoft.AspNetCore.Builder.IApplicationBuilder
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Builder
+    commentId: T:Microsoft.AspNetCore.Builder.IApplicationBuilder
+  Microsoft.AspNetCore.Hosting:
+    name:
+      CSharp:
+      - name: Microsoft.AspNetCore.Hosting
+        nameWithType: Microsoft.AspNetCore.Hosting
+        qualifiedName: Microsoft.AspNetCore.Hosting
+        isExternal: true
+      VB:
+      - name: Microsoft.AspNetCore.Hosting
+        nameWithType: Microsoft.AspNetCore.Hosting
+        qualifiedName: Microsoft.AspNetCore.Hosting
+    isDefinition: true
+    commentId: N:Microsoft.AspNetCore.Hosting
+  Microsoft.AspNetCore.Hosting.IWebHostEnvironment:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Hosting.IWebHostEnvironment
+        name: IWebHostEnvironment
+        nameWithType: IWebHostEnvironment
+        qualifiedName: Microsoft.AspNetCore.Hosting.IWebHostEnvironment
+        isExternal: true
+      VB:
+      - id: Microsoft.AspNetCore.Hosting.IWebHostEnvironment
+        name: IWebHostEnvironment
+        nameWithType: IWebHostEnvironment
+        qualifiedName: Microsoft.AspNetCore.Hosting.IWebHostEnvironment
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Hosting
+    commentId: T:Microsoft.AspNetCore.Hosting.IWebHostEnvironment
+  Backend.Api.Startup.Configure*:
+    name:
+      CSharp:
+      - id: Backend.Api.Startup.Configure*
+        name: Configure
+        nameWithType: Startup.Configure
+        qualifiedName: Backend.Api.Startup.Configure
+      VB:
+      - id: Backend.Api.Startup.Configure*
+        name: Configure
+        nameWithType: Startup.Configure
+        qualifiedName: Backend.Api.Startup.Configure
+    isDefinition: true
+    commentId: Overload:Backend.Api.Startup.Configure
+  Backend.Api.Startup:
+    name:
+      CSharp:
+      - id: Backend.Api.Startup
+        name: Startup
+        nameWithType: Startup
+        qualifiedName: Backend.Api.Startup
+      VB:
+      - id: Backend.Api.Startup
+        name: Startup
+        nameWithType: Startup
+        qualifiedName: Backend.Api.Startup
+    isDefinition: true
+    commentId: T:Backend.Api.Startup
+  Backend.Api:
+    name:
+      CSharp:
+      - name: Backend.Api
+        nameWithType: Backend.Api
+        qualifiedName: Backend.Api
+      VB:
+      - name: Backend.Api
+        nameWithType: Backend.Api
+        qualifiedName: Backend.Api
+    isDefinition: true
+    commentId: N:Backend.Api
+  Microsoft.AspNetCore.Mvc:
+    name:
+      CSharp:
+      - name: Microsoft.AspNetCore.Mvc
+        nameWithType: Microsoft.AspNetCore.Mvc
+        qualifiedName: Microsoft.AspNetCore.Mvc
+        isExternal: true
+      VB:
+      - name: Microsoft.AspNetCore.Mvc
+        nameWithType: Microsoft.AspNetCore.Mvc
+        qualifiedName: Microsoft.AspNetCore.Mvc
+    isDefinition: true
+    commentId: N:Microsoft.AspNetCore.Mvc
+  Microsoft.AspNetCore.Mvc.ControllerBase:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Mvc.ControllerBase
+        name: ControllerBase
+        nameWithType: ControllerBase
+        qualifiedName: Microsoft.AspNetCore.Mvc.ControllerBase
+        isExternal: true
+      VB:
+      - id: Microsoft.AspNetCore.Mvc.ControllerBase
+        name: ControllerBase
+        nameWithType: ControllerBase
+        qualifiedName: Microsoft.AspNetCore.Mvc.ControllerBase
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Mvc
+    commentId: T:Microsoft.AspNetCore.Mvc.ControllerBase
+  Backend.Core.Interfaces:
+    name:
+      CSharp:
+      - name: Backend.Core.Interfaces
+        nameWithType: Backend.Core.Interfaces
+        qualifiedName: Backend.Core.Interfaces
+      VB:
+      - name: Backend.Core.Interfaces
+        nameWithType: Backend.Core.Interfaces
+        qualifiedName: Backend.Core.Interfaces
+    isDefinition: true
+    commentId: N:Backend.Core.Interfaces
+  Backend.Core.Interfaces.IEstudianteRepository:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IEstudianteRepository
+        name: IEstudianteRepository
+        nameWithType: IEstudianteRepository
+        qualifiedName: Backend.Core.Interfaces.IEstudianteRepository
+      VB:
+      - id: Backend.Core.Interfaces.IEstudianteRepository
+        name: IEstudianteRepository
+        nameWithType: IEstudianteRepository
+        qualifiedName: Backend.Core.Interfaces.IEstudianteRepository
+    isDefinition: true
+    parent: Backend.Core.Interfaces
+    commentId: T:Backend.Core.Interfaces.IEstudianteRepository
+  Microsoft.Extensions.Logging.ILogger`1:
+    name:
+      CSharp:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TCategoryName
+        nameWithType: TCategoryName
+        qualifiedName: TCategoryName
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TCategoryName
+        nameWithType: TCategoryName
+        qualifiedName: TCategoryName
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  Microsoft.Extensions.Logging:
+    name:
+      CSharp:
+      - name: Microsoft.Extensions.Logging
+        nameWithType: Microsoft.Extensions.Logging
+        qualifiedName: Microsoft.Extensions.Logging
+        isExternal: true
+      VB:
+      - name: Microsoft.Extensions.Logging
+        nameWithType: Microsoft.Extensions.Logging
+        qualifiedName: Microsoft.Extensions.Logging
+    isDefinition: true
+    commentId: N:Microsoft.Extensions.Logging
+  Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.EstudianteController}:
+    name:
+      CSharp:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Backend.Api.Controllers.EstudianteController
+        name: EstudianteController
+        nameWithType: EstudianteController
+        qualifiedName: Backend.Api.Controllers.EstudianteController
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Backend.Api.Controllers.EstudianteController
+        name: EstudianteController
+        nameWithType: EstudianteController
+        qualifiedName: Backend.Api.Controllers.EstudianteController
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: Microsoft.Extensions.Logging.ILogger`1
+    parent: Microsoft.Extensions.Logging
+    commentId: T:Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.EstudianteController}
+  Backend.Api.Controllers.EstudianteController.#ctor*:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.EstudianteController.#ctor*
+        name: EstudianteController
+        nameWithType: EstudianteController.EstudianteController
+        qualifiedName: Backend.Api.Controllers.EstudianteController.EstudianteController
+      VB:
+      - id: Backend.Api.Controllers.EstudianteController.#ctor*
+        name: EstudianteController
+        nameWithType: EstudianteController.EstudianteController
+        qualifiedName: Backend.Api.Controllers.EstudianteController.EstudianteController
+    isDefinition: true
+    commentId: Overload:Backend.Api.Controllers.EstudianteController.#ctor
+  System.Threading.Tasks.Task`1:
+    name:
+      CSharp:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TResult
+        nameWithType: TResult
+        qualifiedName: TResult
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TResult
+        nameWithType: TResult
+        qualifiedName: TResult
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Threading.Tasks.Task`1
+  System.Threading.Tasks:
+    name:
+      CSharp:
+      - name: System.Threading.Tasks
+        nameWithType: System.Threading.Tasks
+        qualifiedName: System.Threading.Tasks
+        isExternal: true
+      VB:
+      - name: System.Threading.Tasks
+        nameWithType: System.Threading.Tasks
+        qualifiedName: System.Threading.Tasks
+    isDefinition: true
+    commentId: N:System.Threading.Tasks
+  System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}:
+    name:
+      CSharp:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Microsoft.AspNetCore.Mvc.IActionResult
+        name: IActionResult
+        nameWithType: IActionResult
+        qualifiedName: Microsoft.AspNetCore.Mvc.IActionResult
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Microsoft.AspNetCore.Mvc.IActionResult
+        name: IActionResult
+        nameWithType: IActionResult
+        qualifiedName: Microsoft.AspNetCore.Mvc.IActionResult
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Threading.Tasks.Task`1
+    parent: System.Threading.Tasks
+    commentId: T:System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+  Backend.Api.Controllers.EstudianteController.GetEstudiantes*:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.EstudianteController.GetEstudiantes*
+        name: GetEstudiantes
+        nameWithType: EstudianteController.GetEstudiantes
+        qualifiedName: Backend.Api.Controllers.EstudianteController.GetEstudiantes
+      VB:
+      - id: Backend.Api.Controllers.EstudianteController.GetEstudiantes*
+        name: GetEstudiantes
+        nameWithType: EstudianteController.GetEstudiantes
+        qualifiedName: Backend.Api.Controllers.EstudianteController.GetEstudiantes
+    isDefinition: true
+    commentId: Overload:Backend.Api.Controllers.EstudianteController.GetEstudiantes
+  Microsoft.AspNetCore.Mvc.HttpGetAttribute:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+        name: HttpGetAttribute
+        nameWithType: HttpGetAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+        isExternal: true
+      VB:
+      - id: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+        name: HttpGetAttribute
+        nameWithType: HttpGetAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Mvc
+    commentId: T:Microsoft.AspNetCore.Mvc.HttpGetAttribute
+  Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor
+        name: HttpGetAttribute
+        nameWithType: HttpGetAttribute.HttpGetAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor
+        name: HttpGetAttribute
+        nameWithType: HttpGetAttribute.HttpGetAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+    commentId: M:Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor
+  Microsoft.AspNetCore.Mvc.RouteAttribute:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Mvc.RouteAttribute
+        name: RouteAttribute
+        nameWithType: RouteAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.RouteAttribute
+        isExternal: true
+      VB:
+      - id: Microsoft.AspNetCore.Mvc.RouteAttribute
+        name: RouteAttribute
+        nameWithType: RouteAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.RouteAttribute
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Mvc
+    commentId: T:Microsoft.AspNetCore.Mvc.RouteAttribute
+  Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String):
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+        name: RouteAttribute
+        nameWithType: RouteAttribute.RouteAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.RouteAttribute.RouteAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+        name: RouteAttribute
+        nameWithType: RouteAttribute.RouteAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.RouteAttribute.RouteAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Mvc.RouteAttribute
+    commentId: M:Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  Backend.Core.Entities:
+    name:
+      CSharp:
+      - name: Backend.Core.Entities
+        nameWithType: Backend.Core.Entities
+        qualifiedName: Backend.Core.Entities
+      VB:
+      - name: Backend.Core.Entities
+        nameWithType: Backend.Core.Entities
+        qualifiedName: Backend.Core.Entities
+    isDefinition: true
+    commentId: N:Backend.Core.Entities
+  Backend.Core.Entities.Estudiante:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Estudiante
+        name: Estudiante
+        nameWithType: Estudiante
+        qualifiedName: Backend.Core.Entities.Estudiante
+      VB:
+      - id: Backend.Core.Entities.Estudiante
+        name: Estudiante
+        nameWithType: Estudiante
+        qualifiedName: Backend.Core.Entities.Estudiante
+    isDefinition: true
+    parent: Backend.Core.Entities
+    commentId: T:Backend.Core.Entities.Estudiante
+  Backend.Api.Controllers.EstudianteController.AddEstudiante*:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.EstudianteController.AddEstudiante*
+        name: AddEstudiante
+        nameWithType: EstudianteController.AddEstudiante
+        qualifiedName: Backend.Api.Controllers.EstudianteController.AddEstudiante
+      VB:
+      - id: Backend.Api.Controllers.EstudianteController.AddEstudiante*
+        name: AddEstudiante
+        nameWithType: EstudianteController.AddEstudiante
+        qualifiedName: Backend.Api.Controllers.EstudianteController.AddEstudiante
+    isDefinition: true
+    commentId: Overload:Backend.Api.Controllers.EstudianteController.AddEstudiante
+  Microsoft.AspNetCore.Mvc.HttpPostAttribute:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Mvc.HttpPostAttribute
+        name: HttpPostAttribute
+        nameWithType: HttpPostAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpPostAttribute
+        isExternal: true
+      VB:
+      - id: Microsoft.AspNetCore.Mvc.HttpPostAttribute
+        name: HttpPostAttribute
+        nameWithType: HttpPostAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpPostAttribute
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Mvc
+    commentId: T:Microsoft.AspNetCore.Mvc.HttpPostAttribute
+  Microsoft.AspNetCore.Mvc.HttpPostAttribute.#ctor:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Mvc.HttpPostAttribute.#ctor
+        name: HttpPostAttribute
+        nameWithType: HttpPostAttribute.HttpPostAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Microsoft.AspNetCore.Mvc.HttpPostAttribute.#ctor
+        name: HttpPostAttribute
+        nameWithType: HttpPostAttribute.HttpPostAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Mvc.HttpPostAttribute
+    commentId: M:Microsoft.AspNetCore.Mvc.HttpPostAttribute.#ctor
+  Backend.Api.Controllers.EstudianteController.GenerateData*:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.EstudianteController.GenerateData*
+        name: GenerateData
+        nameWithType: EstudianteController.GenerateData
+        qualifiedName: Backend.Api.Controllers.EstudianteController.GenerateData
+      VB:
+      - id: Backend.Api.Controllers.EstudianteController.GenerateData*
+        name: GenerateData
+        nameWithType: EstudianteController.GenerateData
+        qualifiedName: Backend.Api.Controllers.EstudianteController.GenerateData
+    isDefinition: true
+    commentId: Overload:Backend.Api.Controllers.EstudianteController.GenerateData
+  Backend.Api.Controllers.EstudianteController:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.EstudianteController
+        name: EstudianteController
+        nameWithType: EstudianteController
+        qualifiedName: Backend.Api.Controllers.EstudianteController
+      VB:
+      - id: Backend.Api.Controllers.EstudianteController
+        name: EstudianteController
+        nameWithType: EstudianteController
+        qualifiedName: Backend.Api.Controllers.EstudianteController
+    isDefinition: true
+    commentId: T:Backend.Api.Controllers.EstudianteController
+  Microsoft.AspNetCore.Mvc.ApiControllerAttribute:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Mvc.ApiControllerAttribute
+        name: ApiControllerAttribute
+        nameWithType: ApiControllerAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.ApiControllerAttribute
+        isExternal: true
+      VB:
+      - id: Microsoft.AspNetCore.Mvc.ApiControllerAttribute
+        name: ApiControllerAttribute
+        nameWithType: ApiControllerAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.ApiControllerAttribute
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Mvc
+    commentId: T:Microsoft.AspNetCore.Mvc.ApiControllerAttribute
+  Microsoft.AspNetCore.Mvc.ApiControllerAttribute.#ctor:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Mvc.ApiControllerAttribute.#ctor
+        name: ApiControllerAttribute
+        nameWithType: ApiControllerAttribute.ApiControllerAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.ApiControllerAttribute.ApiControllerAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Microsoft.AspNetCore.Mvc.ApiControllerAttribute.#ctor
+        name: ApiControllerAttribute
+        nameWithType: ApiControllerAttribute.ApiControllerAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.ApiControllerAttribute.ApiControllerAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Mvc.ApiControllerAttribute
+    commentId: M:Microsoft.AspNetCore.Mvc.ApiControllerAttribute.#ctor
+  Backend.Core.Interfaces.IInscripcionRepository:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IInscripcionRepository
+        name: IInscripcionRepository
+        nameWithType: IInscripcionRepository
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository
+      VB:
+      - id: Backend.Core.Interfaces.IInscripcionRepository
+        name: IInscripcionRepository
+        nameWithType: IInscripcionRepository
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository
+    isDefinition: true
+    parent: Backend.Core.Interfaces
+    commentId: T:Backend.Core.Interfaces.IInscripcionRepository
+  Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.InscripcionController}:
+    name:
+      CSharp:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Backend.Api.Controllers.InscripcionController
+        name: InscripcionController
+        nameWithType: InscripcionController
+        qualifiedName: Backend.Api.Controllers.InscripcionController
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Backend.Api.Controllers.InscripcionController
+        name: InscripcionController
+        nameWithType: InscripcionController
+        qualifiedName: Backend.Api.Controllers.InscripcionController
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: Microsoft.Extensions.Logging.ILogger`1
+    parent: Microsoft.Extensions.Logging
+    commentId: T:Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.InscripcionController}
+  Backend.Api.Controllers.InscripcionController.#ctor*:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.InscripcionController.#ctor*
+        name: InscripcionController
+        nameWithType: InscripcionController.InscripcionController
+        qualifiedName: Backend.Api.Controllers.InscripcionController.InscripcionController
+      VB:
+      - id: Backend.Api.Controllers.InscripcionController.#ctor*
+        name: InscripcionController
+        nameWithType: InscripcionController.InscripcionController
+        qualifiedName: Backend.Api.Controllers.InscripcionController.InscripcionController
+    isDefinition: true
+    commentId: Overload:Backend.Api.Controllers.InscripcionController.#ctor
+  Backend.Api.Controllers.InscripcionController.GetInscripciones*:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.InscripcionController.GetInscripciones*
+        name: GetInscripciones
+        nameWithType: InscripcionController.GetInscripciones
+        qualifiedName: Backend.Api.Controllers.InscripcionController.GetInscripciones
+      VB:
+      - id: Backend.Api.Controllers.InscripcionController.GetInscripciones*
+        name: GetInscripciones
+        nameWithType: InscripcionController.GetInscripciones
+        qualifiedName: Backend.Api.Controllers.InscripcionController.GetInscripciones
+    isDefinition: true
+    commentId: Overload:Backend.Api.Controllers.InscripcionController.GetInscripciones
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  Backend.Api.Controllers.InscripcionController.GetMateriasEstudiante*:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.InscripcionController.GetMateriasEstudiante*
+        name: GetMateriasEstudiante
+        nameWithType: InscripcionController.GetMateriasEstudiante
+        qualifiedName: Backend.Api.Controllers.InscripcionController.GetMateriasEstudiante
+      VB:
+      - id: Backend.Api.Controllers.InscripcionController.GetMateriasEstudiante*
+        name: GetMateriasEstudiante
+        nameWithType: InscripcionController.GetMateriasEstudiante
+        qualifiedName: Backend.Api.Controllers.InscripcionController.GetMateriasEstudiante
+    isDefinition: true
+    commentId: Overload:Backend.Api.Controllers.InscripcionController.GetMateriasEstudiante
+  Backend.Api.Controllers.InscripcionController.GetEstudiantesMateria*:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.InscripcionController.GetEstudiantesMateria*
+        name: GetEstudiantesMateria
+        nameWithType: InscripcionController.GetEstudiantesMateria
+        qualifiedName: Backend.Api.Controllers.InscripcionController.GetEstudiantesMateria
+      VB:
+      - id: Backend.Api.Controllers.InscripcionController.GetEstudiantesMateria*
+        name: GetEstudiantesMateria
+        nameWithType: InscripcionController.GetEstudiantesMateria
+        qualifiedName: Backend.Api.Controllers.InscripcionController.GetEstudiantesMateria
+    isDefinition: true
+    commentId: Overload:Backend.Api.Controllers.InscripcionController.GetEstudiantesMateria
+  Backend.Core.Entities.Inscripcion:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Inscripcion
+        name: Inscripcion
+        nameWithType: Inscripcion
+        qualifiedName: Backend.Core.Entities.Inscripcion
+      VB:
+      - id: Backend.Core.Entities.Inscripcion
+        name: Inscripcion
+        nameWithType: Inscripcion
+        qualifiedName: Backend.Core.Entities.Inscripcion
+    isDefinition: true
+    parent: Backend.Core.Entities
+    commentId: T:Backend.Core.Entities.Inscripcion
+  Backend.Api.Controllers.InscripcionController.AddInscripcion*:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.InscripcionController.AddInscripcion*
+        name: AddInscripcion
+        nameWithType: InscripcionController.AddInscripcion
+        qualifiedName: Backend.Api.Controllers.InscripcionController.AddInscripcion
+      VB:
+      - id: Backend.Api.Controllers.InscripcionController.AddInscripcion*
+        name: AddInscripcion
+        nameWithType: InscripcionController.AddInscripcion
+        qualifiedName: Backend.Api.Controllers.InscripcionController.AddInscripcion
+    isDefinition: true
+    commentId: Overload:Backend.Api.Controllers.InscripcionController.AddInscripcion
+  Backend.Api.Controllers.InscripcionController.UpdateInscripcion*:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.InscripcionController.UpdateInscripcion*
+        name: UpdateInscripcion
+        nameWithType: InscripcionController.UpdateInscripcion
+        qualifiedName: Backend.Api.Controllers.InscripcionController.UpdateInscripcion
+      VB:
+      - id: Backend.Api.Controllers.InscripcionController.UpdateInscripcion*
+        name: UpdateInscripcion
+        nameWithType: InscripcionController.UpdateInscripcion
+        qualifiedName: Backend.Api.Controllers.InscripcionController.UpdateInscripcion
+    isDefinition: true
+    commentId: Overload:Backend.Api.Controllers.InscripcionController.UpdateInscripcion
+  Microsoft.AspNetCore.Mvc.HttpPutAttribute:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Mvc.HttpPutAttribute
+        name: HttpPutAttribute
+        nameWithType: HttpPutAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpPutAttribute
+        isExternal: true
+      VB:
+      - id: Microsoft.AspNetCore.Mvc.HttpPutAttribute
+        name: HttpPutAttribute
+        nameWithType: HttpPutAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpPutAttribute
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Mvc
+    commentId: T:Microsoft.AspNetCore.Mvc.HttpPutAttribute
+  Microsoft.AspNetCore.Mvc.HttpPutAttribute.#ctor:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Mvc.HttpPutAttribute.#ctor
+        name: HttpPutAttribute
+        nameWithType: HttpPutAttribute.HttpPutAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpPutAttribute.HttpPutAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Microsoft.AspNetCore.Mvc.HttpPutAttribute.#ctor
+        name: HttpPutAttribute
+        nameWithType: HttpPutAttribute.HttpPutAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpPutAttribute.HttpPutAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Mvc.HttpPutAttribute
+    commentId: M:Microsoft.AspNetCore.Mvc.HttpPutAttribute.#ctor
+  Backend.Api.Controllers.InscripcionController.DeleteInscripcion*:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.InscripcionController.DeleteInscripcion*
+        name: DeleteInscripcion
+        nameWithType: InscripcionController.DeleteInscripcion
+        qualifiedName: Backend.Api.Controllers.InscripcionController.DeleteInscripcion
+      VB:
+      - id: Backend.Api.Controllers.InscripcionController.DeleteInscripcion*
+        name: DeleteInscripcion
+        nameWithType: InscripcionController.DeleteInscripcion
+        qualifiedName: Backend.Api.Controllers.InscripcionController.DeleteInscripcion
+    isDefinition: true
+    commentId: Overload:Backend.Api.Controllers.InscripcionController.DeleteInscripcion
+  Microsoft.AspNetCore.Mvc.HttpDeleteAttribute:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute
+        name: HttpDeleteAttribute
+        nameWithType: HttpDeleteAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute
+        isExternal: true
+      VB:
+      - id: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute
+        name: HttpDeleteAttribute
+        nameWithType: HttpDeleteAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute
+        isExternal: true
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Mvc
+    commentId: T:Microsoft.AspNetCore.Mvc.HttpDeleteAttribute
+  Microsoft.AspNetCore.Mvc.HttpDeleteAttribute.#ctor:
+    name:
+      CSharp:
+      - id: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute.#ctor
+        name: HttpDeleteAttribute
+        nameWithType: HttpDeleteAttribute.HttpDeleteAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute.HttpDeleteAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      VB:
+      - id: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute.#ctor
+        name: HttpDeleteAttribute
+        nameWithType: HttpDeleteAttribute.HttpDeleteAttribute
+        qualifiedName: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute.HttpDeleteAttribute
+        isExternal: true
+      - name: (
+        nameWithType: (
+        qualifiedName: (
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    parent: Microsoft.AspNetCore.Mvc.HttpDeleteAttribute
+    commentId: M:Microsoft.AspNetCore.Mvc.HttpDeleteAttribute.#ctor
+  Backend.Api.Controllers.InscripcionController:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.InscripcionController
+        name: InscripcionController
+        nameWithType: InscripcionController
+        qualifiedName: Backend.Api.Controllers.InscripcionController
+      VB:
+      - id: Backend.Api.Controllers.InscripcionController
+        name: InscripcionController
+        nameWithType: InscripcionController
+        qualifiedName: Backend.Api.Controllers.InscripcionController
+    isDefinition: true
+    commentId: T:Backend.Api.Controllers.InscripcionController
+  Backend.Core.Interfaces.IMateriaRepository:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IMateriaRepository
+        name: IMateriaRepository
+        nameWithType: IMateriaRepository
+        qualifiedName: Backend.Core.Interfaces.IMateriaRepository
+      VB:
+      - id: Backend.Core.Interfaces.IMateriaRepository
+        name: IMateriaRepository
+        nameWithType: IMateriaRepository
+        qualifiedName: Backend.Core.Interfaces.IMateriaRepository
+    isDefinition: true
+    parent: Backend.Core.Interfaces
+    commentId: T:Backend.Core.Interfaces.IMateriaRepository
+  Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.MateriaController}:
+    name:
+      CSharp:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: Backend.Api.Controllers.MateriaController
+        name: MateriaController
+        nameWithType: MateriaController
+        qualifiedName: Backend.Api.Controllers.MateriaController
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Microsoft.Extensions.Logging.ILogger`1
+        name: ILogger
+        nameWithType: ILogger
+        qualifiedName: Microsoft.Extensions.Logging.ILogger
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: Backend.Api.Controllers.MateriaController
+        name: MateriaController
+        nameWithType: MateriaController
+        qualifiedName: Backend.Api.Controllers.MateriaController
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: Microsoft.Extensions.Logging.ILogger`1
+    parent: Microsoft.Extensions.Logging
+    commentId: T:Microsoft.Extensions.Logging.ILogger{Backend.Api.Controllers.MateriaController}
+  Backend.Api.Controllers.MateriaController.#ctor*:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.MateriaController.#ctor*
+        name: MateriaController
+        nameWithType: MateriaController.MateriaController
+        qualifiedName: Backend.Api.Controllers.MateriaController.MateriaController
+      VB:
+      - id: Backend.Api.Controllers.MateriaController.#ctor*
+        name: MateriaController
+        nameWithType: MateriaController.MateriaController
+        qualifiedName: Backend.Api.Controllers.MateriaController.MateriaController
+    isDefinition: true
+    commentId: Overload:Backend.Api.Controllers.MateriaController.#ctor
+  Backend.Api.Controllers.MateriaController.GetMaterias*:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.MateriaController.GetMaterias*
+        name: GetMaterias
+        nameWithType: MateriaController.GetMaterias
+        qualifiedName: Backend.Api.Controllers.MateriaController.GetMaterias
+      VB:
+      - id: Backend.Api.Controllers.MateriaController.GetMaterias*
+        name: GetMaterias
+        nameWithType: MateriaController.GetMaterias
+        qualifiedName: Backend.Api.Controllers.MateriaController.GetMaterias
+    isDefinition: true
+    commentId: Overload:Backend.Api.Controllers.MateriaController.GetMaterias
+  Backend.Api.Controllers.MateriaController:
+    name:
+      CSharp:
+      - id: Backend.Api.Controllers.MateriaController
+        name: MateriaController
+        nameWithType: MateriaController
+        qualifiedName: Backend.Api.Controllers.MateriaController
+      VB:
+      - id: Backend.Api.Controllers.MateriaController
+        name: MateriaController
+        nameWithType: MateriaController
+        qualifiedName: Backend.Api.Controllers.MateriaController
+    isDefinition: true
+    commentId: T:Backend.Api.Controllers.MateriaController
+  Backend.Api.Controllers:
+    name:
+      CSharp:
+      - name: Backend.Api.Controllers
+        nameWithType: Backend.Api.Controllers
+        qualifiedName: Backend.Api.Controllers
+      VB:
+      - name: Backend.Api.Controllers
+        nameWithType: Backend.Api.Controllers
+        qualifiedName: Backend.Api.Controllers
+    isDefinition: true
+    commentId: N:Backend.Api.Controllers

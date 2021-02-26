@@ -21,6 +21,11 @@ namespace Backend.Api.Controllers
             _logger = logger;
         }
 
+
+        /// <summary>
+        /// Devuelve todas las inscripciones realizadas.
+        /// </summary>
+
         [HttpGet]
         [Route("GetInscripciones")]
         public async Task<IActionResult> GetInscripciones()
@@ -72,7 +77,11 @@ namespace Backend.Api.Controllers
                 throw new BusinessException(error.Message);
             }
         }
-
+        /// <summary>
+        /// Registra una inscripcion.
+        /// </summary>
+        /// <param name="inscripcion">Es la inscripcion que se realizara <seealso cref="Inscripcion"/></param>
+        /// <returns>Just returns bar.</returns>
         [HttpPost]
         [Route("AddInscripcion")]
         public async Task<IActionResult> AddInscripcion(Inscripcion inscripcion)
@@ -107,6 +116,11 @@ namespace Backend.Api.Controllers
             }
         }
 
+        /// <summary>
+        /// Borra una inscripcion en base al Id.
+        /// </summary>
+        /// <param name="idInscripcion">Es el Id de la inscripcion a borrar </param>
+        /// <returns>Just returns bar.</returns>
         [HttpDelete]
         [Route("DeleteInscripcion")]
         public async Task<IActionResult> DeleteInscripcion(int idInscripcion)

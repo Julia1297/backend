@@ -22,3 +22,15 @@ F:\PROYECTO NACIONAL\Desarrollo\Microproyecto\BackendAcademico\Backend.Infraestr
 F:\PROYECTO NACIONAL\Desarrollo\Microproyecto\BackendAcademico\Backend.Infraestructure\obj\Debug\netstandard2.0\Backend.Infraestructure.csproj.CopyComplete
 F:\PROYECTO NACIONAL\Desarrollo\Microproyecto\BackendAcademico\Backend.Infraestructure\obj\Debug\netstandard2.0\Backend.Infraestructure.dll
 F:\PROYECTO NACIONAL\Desarrollo\Microproyecto\BackendAcademico\Backend.Infraestructure\obj\Debug\netstandard2.0\Backend.Infraestructure.pdb
+F:\PROYECTO NACIONAL\Desarrollo\backend\Backend.Infraestructure\bin\Debug\netstandard2.0\Backend.Infraestructure.deps.json
+F:\PROYECTO NACIONAL\Desarrollo\backend\Backend.Infraestructure\bin\Debug\netstandard2.0\Backend.Infraestructure.dll
+F:\PROYECTO NACIONAL\Desarrollo\backend\Backend.Infraestructure\bin\Debug\netstandard2.0\Backend.Infraestructure.pdb
+F:\PROYECTO NACIONAL\Desarrollo\backend\Backend.Infraestructure\bin\Debug\netstandard2.0\Backend.Core.dll
+F:\PROYECTO NACIONAL\Desarrollo\backend\Backend.Infraestructure\bin\Debug\netstandard2.0\Backend.Core.pdb
+F:\PROYECTO NACIONAL\Desarrollo\backend\Backend.Infraestructure\obj\Debug\netstandard2.0\Backend.Infraestructure.csprojAssemblyReference.cache
+F:\PROYECTO NACIONAL\Desarrollo\backend\Backend.Infraestructure\obj\Debug\netstandard2.0\Backend.Infraestructure.AssemblyInfoInputs.cache
+F:\PROYECTO NACIONAL\Desarrollo\backend\Backend.Infraestructure\obj\Debug\netstandard2.0\Backend.Infraestructure.AssemblyInfo.cs
+F:\PROYECTO NACIONAL\Desarrollo\backend\Backend.Infraestructure\obj\Debug\netstandard2.0\Backend.Infraestructure.csproj.CoreCompileInputs.cache
+F:\PROYECTO NACIONAL\Desarrollo\backend\Backend.Infraestructure\obj\Debug\netstandard2.0\Backend.Infraestructure.csproj.CopyComplete
+F:\PROYECTO NACIONAL\Desarrollo\backend\Backend.Infraestructure\obj\Debug\netstandard2.0\Backend.Infraestructure.dll
+F:\PROYECTO NACIONAL\Desarrollo\backend\Backend.Infraestructure\obj\Debug\netstandard2.0\Backend.Infraestructure.pdb

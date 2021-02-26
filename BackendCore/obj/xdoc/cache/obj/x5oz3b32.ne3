@@ -1,0 +1,1946 @@
+id: Backend.Core
+language: CSharp
+name:
+  Default: Backend.Core
+qualifiedName:
+  Default: Backend.Core
+type: Assembly
+modifiers: {}
+items:
+- id: Backend.Core.Entities
+  commentId: N:Backend.Core.Entities
+  language: CSharp
+  name:
+    CSharp: Backend.Core.Entities
+    VB: Backend.Core.Entities
+  nameWithType:
+    CSharp: Backend.Core.Entities
+    VB: Backend.Core.Entities
+  qualifiedName:
+    CSharp: Backend.Core.Entities
+    VB: Backend.Core.Entities
+  type: Namespace
+  assemblies:
+  - Backend.Core
+  modifiers: {}
+  items:
+  - id: Backend.Core.Entities.Estudiante
+    commentId: T:Backend.Core.Entities.Estudiante
+    language: CSharp
+    name:
+      CSharp: Estudiante
+      VB: Estudiante
+    nameWithType:
+      CSharp: Estudiante
+      VB: Estudiante
+    qualifiedName:
+      CSharp: Backend.Core.Entities.Estudiante
+      VB: Backend.Core.Entities.Estudiante
+    type: Class
+    assemblies:
+    - Backend.Core
+    namespace: Backend.Core.Entities
+    source:
+      remote:
+        path: BackendCore/Entities/Estudiante.cs
+        branch: main
+        repo: https://github.com/Julia1297/backend.git
+      id: Estudiante
+      path: ../BackendCore/Entities/Estudiante.cs
+      startLine: 4
+    syntax:
+      content:
+        CSharp: public class Estudiante
+        VB: Public Class Estudiante
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Backend.Core.Entities.Estudiante.IdEstudiante
+      commentId: P:Backend.Core.Entities.Estudiante.IdEstudiante
+      language: CSharp
+      name:
+        CSharp: IdEstudiante
+        VB: IdEstudiante
+      nameWithType:
+        CSharp: Estudiante.IdEstudiante
+        VB: Estudiante.IdEstudiante
+      qualifiedName:
+        CSharp: Backend.Core.Entities.Estudiante.IdEstudiante
+        VB: Backend.Core.Entities.Estudiante.IdEstudiante
+      type: Property
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Entities
+      source:
+        remote:
+          path: BackendCore/Entities/Estudiante.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: IdEstudiante
+        path: ../BackendCore/Entities/Estudiante.cs
+        startLine: 6
+      syntax:
+        content:
+          CSharp: public int IdEstudiante { get; set; }
+          VB: Public Property IdEstudiante As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Backend.Core.Entities.Estudiante.IdEstudiante*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Backend.Core.Entities.Estudiante.Nombres
+      commentId: P:Backend.Core.Entities.Estudiante.Nombres
+      language: CSharp
+      name:
+        CSharp: Nombres
+        VB: Nombres
+      nameWithType:
+        CSharp: Estudiante.Nombres
+        VB: Estudiante.Nombres
+      qualifiedName:
+        CSharp: Backend.Core.Entities.Estudiante.Nombres
+        VB: Backend.Core.Entities.Estudiante.Nombres
+      type: Property
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Entities
+      source:
+        remote:
+          path: BackendCore/Entities/Estudiante.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: Nombres
+        path: ../BackendCore/Entities/Estudiante.cs
+        startLine: 7
+      syntax:
+        content:
+          CSharp: public string Nombres { get; set; }
+          VB: Public Property Nombres As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Backend.Core.Entities.Estudiante.Nombres*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Backend.Core.Entities.Estudiante.Apellidos
+      commentId: P:Backend.Core.Entities.Estudiante.Apellidos
+      language: CSharp
+      name:
+        CSharp: Apellidos
+        VB: Apellidos
+      nameWithType:
+        CSharp: Estudiante.Apellidos
+        VB: Estudiante.Apellidos
+      qualifiedName:
+        CSharp: Backend.Core.Entities.Estudiante.Apellidos
+        VB: Backend.Core.Entities.Estudiante.Apellidos
+      type: Property
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Entities
+      source:
+        remote:
+          path: BackendCore/Entities/Estudiante.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: Apellidos
+        path: ../BackendCore/Entities/Estudiante.cs
+        startLine: 8
+      syntax:
+        content:
+          CSharp: public string Apellidos { get; set; }
+          VB: Public Property Apellidos As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Backend.Core.Entities.Estudiante.Apellidos*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Backend.Core.Entities.Estudiante.Ci
+      commentId: P:Backend.Core.Entities.Estudiante.Ci
+      language: CSharp
+      name:
+        CSharp: Ci
+        VB: Ci
+      nameWithType:
+        CSharp: Estudiante.Ci
+        VB: Estudiante.Ci
+      qualifiedName:
+        CSharp: Backend.Core.Entities.Estudiante.Ci
+        VB: Backend.Core.Entities.Estudiante.Ci
+      type: Property
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Entities
+      source:
+        remote:
+          path: BackendCore/Entities/Estudiante.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: Ci
+        path: ../BackendCore/Entities/Estudiante.cs
+        startLine: 9
+      syntax:
+        content:
+          CSharp: public string Ci { get; set; }
+          VB: Public Property Ci As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Backend.Core.Entities.Estudiante.Ci*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Backend.Core.Entities.Estudiante.FechaNacimiento
+      commentId: P:Backend.Core.Entities.Estudiante.FechaNacimiento
+      language: CSharp
+      name:
+        CSharp: FechaNacimiento
+        VB: FechaNacimiento
+      nameWithType:
+        CSharp: Estudiante.FechaNacimiento
+        VB: Estudiante.FechaNacimiento
+      qualifiedName:
+        CSharp: Backend.Core.Entities.Estudiante.FechaNacimiento
+        VB: Backend.Core.Entities.Estudiante.FechaNacimiento
+      type: Property
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Entities
+      source:
+        remote:
+          path: BackendCore/Entities/Estudiante.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: FechaNacimiento
+        path: ../BackendCore/Entities/Estudiante.cs
+        startLine: 10
+      syntax:
+        content:
+          CSharp: public DateTime FechaNacimiento { get; set; }
+          VB: Public Property FechaNacimiento As Date
+        parameters: []
+        return:
+          type: System.DateTime
+      overload: Backend.Core.Entities.Estudiante.FechaNacimiento*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+  - id: Backend.Core.Entities.Inscripcion
+    commentId: T:Backend.Core.Entities.Inscripcion
+    language: CSharp
+    name:
+      CSharp: Inscripcion
+      VB: Inscripcion
+    nameWithType:
+      CSharp: Inscripcion
+      VB: Inscripcion
+    qualifiedName:
+      CSharp: Backend.Core.Entities.Inscripcion
+      VB: Backend.Core.Entities.Inscripcion
+    type: Class
+    assemblies:
+    - Backend.Core
+    namespace: Backend.Core.Entities
+    source:
+      remote:
+        path: BackendCore/Entities/Inscripcion.cs
+        branch: main
+        repo: https://github.com/Julia1297/backend.git
+      id: Inscripcion
+      path: ../BackendCore/Entities/Inscripcion.cs
+      startLine: 2
+    syntax:
+      content:
+        CSharp: public class Inscripcion
+        VB: Public Class Inscripcion
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Backend.Core.Entities.Inscripcion.IdInscripcion
+      commentId: P:Backend.Core.Entities.Inscripcion.IdInscripcion
+      language: CSharp
+      name:
+        CSharp: IdInscripcion
+        VB: IdInscripcion
+      nameWithType:
+        CSharp: Inscripcion.IdInscripcion
+        VB: Inscripcion.IdInscripcion
+      qualifiedName:
+        CSharp: Backend.Core.Entities.Inscripcion.IdInscripcion
+        VB: Backend.Core.Entities.Inscripcion.IdInscripcion
+      type: Property
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Entities
+      source:
+        remote:
+          path: BackendCore/Entities/Inscripcion.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: IdInscripcion
+        path: ../BackendCore/Entities/Inscripcion.cs
+        startLine: 4
+      syntax:
+        content:
+          CSharp: public int IdInscripcion { get; set; }
+          VB: Public Property IdInscripcion As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Backend.Core.Entities.Inscripcion.IdInscripcion*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Backend.Core.Entities.Inscripcion.Descripcion
+      commentId: P:Backend.Core.Entities.Inscripcion.Descripcion
+      language: CSharp
+      name:
+        CSharp: Descripcion
+        VB: Descripcion
+      nameWithType:
+        CSharp: Inscripcion.Descripcion
+        VB: Inscripcion.Descripcion
+      qualifiedName:
+        CSharp: Backend.Core.Entities.Inscripcion.Descripcion
+        VB: Backend.Core.Entities.Inscripcion.Descripcion
+      type: Property
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Entities
+      source:
+        remote:
+          path: BackendCore/Entities/Inscripcion.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: Descripcion
+        path: ../BackendCore/Entities/Inscripcion.cs
+        startLine: 5
+      syntax:
+        content:
+          CSharp: public string Descripcion { get; set; }
+          VB: Public Property Descripcion As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Backend.Core.Entities.Inscripcion.Descripcion*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Backend.Core.Entities.Inscripcion.IdMateria
+      commentId: P:Backend.Core.Entities.Inscripcion.IdMateria
+      language: CSharp
+      name:
+        CSharp: IdMateria
+        VB: IdMateria
+      nameWithType:
+        CSharp: Inscripcion.IdMateria
+        VB: Inscripcion.IdMateria
+      qualifiedName:
+        CSharp: Backend.Core.Entities.Inscripcion.IdMateria
+        VB: Backend.Core.Entities.Inscripcion.IdMateria
+      type: Property
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Entities
+      source:
+        remote:
+          path: BackendCore/Entities/Inscripcion.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: IdMateria
+        path: ../BackendCore/Entities/Inscripcion.cs
+        startLine: 6
+      syntax:
+        content:
+          CSharp: public int IdMateria { get; set; }
+          VB: Public Property IdMateria As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Backend.Core.Entities.Inscripcion.IdMateria*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Backend.Core.Entities.Inscripcion.IdEstudiante
+      commentId: P:Backend.Core.Entities.Inscripcion.IdEstudiante
+      language: CSharp
+      name:
+        CSharp: IdEstudiante
+        VB: IdEstudiante
+      nameWithType:
+        CSharp: Inscripcion.IdEstudiante
+        VB: Inscripcion.IdEstudiante
+      qualifiedName:
+        CSharp: Backend.Core.Entities.Inscripcion.IdEstudiante
+        VB: Backend.Core.Entities.Inscripcion.IdEstudiante
+      type: Property
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Entities
+      source:
+        remote:
+          path: BackendCore/Entities/Inscripcion.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: IdEstudiante
+        path: ../BackendCore/Entities/Inscripcion.cs
+        startLine: 7
+      syntax:
+        content:
+          CSharp: public int IdEstudiante { get; set; }
+          VB: Public Property IdEstudiante As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Backend.Core.Entities.Inscripcion.IdEstudiante*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+  - id: Backend.Core.Entities.Materia
+    commentId: T:Backend.Core.Entities.Materia
+    language: CSharp
+    name:
+      CSharp: Materia
+      VB: Materia
+    nameWithType:
+      CSharp: Materia
+      VB: Materia
+    qualifiedName:
+      CSharp: Backend.Core.Entities.Materia
+      VB: Backend.Core.Entities.Materia
+    type: Class
+    assemblies:
+    - Backend.Core
+    namespace: Backend.Core.Entities
+    source:
+      remote:
+        path: BackendCore/Entities/Materia.cs
+        branch: main
+        repo: https://github.com/Julia1297/backend.git
+      id: Materia
+      path: ../BackendCore/Entities/Materia.cs
+      startLine: 2
+    syntax:
+      content:
+        CSharp: public class Materia
+        VB: Public Class Materia
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Backend.Core.Entities.Materia.IdMateria
+      commentId: P:Backend.Core.Entities.Materia.IdMateria
+      language: CSharp
+      name:
+        CSharp: IdMateria
+        VB: IdMateria
+      nameWithType:
+        CSharp: Materia.IdMateria
+        VB: Materia.IdMateria
+      qualifiedName:
+        CSharp: Backend.Core.Entities.Materia.IdMateria
+        VB: Backend.Core.Entities.Materia.IdMateria
+      type: Property
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Entities
+      source:
+        remote:
+          path: BackendCore/Entities/Materia.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: IdMateria
+        path: ../BackendCore/Entities/Materia.cs
+        startLine: 4
+      syntax:
+        content:
+          CSharp: public int IdMateria { get; set; }
+          VB: Public Property IdMateria As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: Backend.Core.Entities.Materia.IdMateria*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Backend.Core.Entities.Materia.Nombre
+      commentId: P:Backend.Core.Entities.Materia.Nombre
+      language: CSharp
+      name:
+        CSharp: Nombre
+        VB: Nombre
+      nameWithType:
+        CSharp: Materia.Nombre
+        VB: Materia.Nombre
+      qualifiedName:
+        CSharp: Backend.Core.Entities.Materia.Nombre
+        VB: Backend.Core.Entities.Materia.Nombre
+      type: Property
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Entities
+      source:
+        remote:
+          path: BackendCore/Entities/Materia.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: Nombre
+        path: ../BackendCore/Entities/Materia.cs
+        startLine: 5
+      syntax:
+        content:
+          CSharp: public string Nombre { get; set; }
+          VB: Public Property Nombre As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Backend.Core.Entities.Materia.Nombre*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: Backend.Core.Entities.Materia.Sigla
+      commentId: P:Backend.Core.Entities.Materia.Sigla
+      language: CSharp
+      name:
+        CSharp: Sigla
+        VB: Sigla
+      nameWithType:
+        CSharp: Materia.Sigla
+        VB: Materia.Sigla
+      qualifiedName:
+        CSharp: Backend.Core.Entities.Materia.Sigla
+        VB: Backend.Core.Entities.Materia.Sigla
+      type: Property
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Entities
+      source:
+        remote:
+          path: BackendCore/Entities/Materia.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: Sigla
+        path: ../BackendCore/Entities/Materia.cs
+        startLine: 6
+      syntax:
+        content:
+          CSharp: public string Sigla { get; set; }
+          VB: Public Property Sigla As String
+        parameters: []
+        return:
+          type: System.String
+      overload: Backend.Core.Entities.Materia.Sigla*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+- id: Backend.Core.Exceptions
+  commentId: N:Backend.Core.Exceptions
+  language: CSharp
+  name:
+    CSharp: Backend.Core.Exceptions
+    VB: Backend.Core.Exceptions
+  nameWithType:
+    CSharp: Backend.Core.Exceptions
+    VB: Backend.Core.Exceptions
+  qualifiedName:
+    CSharp: Backend.Core.Exceptions
+    VB: Backend.Core.Exceptions
+  type: Namespace
+  assemblies:
+  - Backend.Core
+  modifiers: {}
+  items:
+  - id: Backend.Core.Exceptions.BusinessException
+    commentId: T:Backend.Core.Exceptions.BusinessException
+    language: CSharp
+    name:
+      CSharp: BusinessException
+      VB: BusinessException
+    nameWithType:
+      CSharp: BusinessException
+      VB: BusinessException
+    qualifiedName:
+      CSharp: Backend.Core.Exceptions.BusinessException
+      VB: Backend.Core.Exceptions.BusinessException
+    type: Class
+    assemblies:
+    - Backend.Core
+    namespace: Backend.Core.Exceptions
+    source:
+      remote:
+        path: BackendCore/Exceptions/BusinessException.cs
+        branch: main
+        repo: https://github.com/Julia1297/backend.git
+      id: BusinessException
+      path: ../BackendCore/Exceptions/BusinessException.cs
+      startLine: 4
+    syntax:
+      content:
+        CSharp: 'public class BusinessException : Exception, ISerializable'
+        VB: >-
+          Public Class BusinessException
+
+              Inherits Exception
+
+              Implements ISerializable
+    inheritance:
+    - System.Object
+    - System.Exception
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: Backend.Core.Exceptions.BusinessException.#ctor
+      commentId: M:Backend.Core.Exceptions.BusinessException.#ctor
+      language: CSharp
+      name:
+        CSharp: BusinessException()
+        VB: BusinessException()
+      nameWithType:
+        CSharp: BusinessException.BusinessException()
+        VB: BusinessException.BusinessException()
+      qualifiedName:
+        CSharp: Backend.Core.Exceptions.BusinessException.BusinessException()
+        VB: Backend.Core.Exceptions.BusinessException.BusinessException()
+      type: Constructor
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Exceptions
+      source:
+        remote:
+          path: BackendCore/Exceptions/BusinessException.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: .ctor
+        path: ../BackendCore/Exceptions/BusinessException.cs
+        startLine: 6
+      syntax:
+        content:
+          CSharp: public BusinessException()
+          VB: Public Sub New
+      overload: Backend.Core.Exceptions.BusinessException.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Backend.Core.Exceptions.BusinessException.#ctor(System.String)
+      commentId: M:Backend.Core.Exceptions.BusinessException.#ctor(System.String)
+      language: CSharp
+      name:
+        CSharp: BusinessException(String)
+        VB: BusinessException(String)
+      nameWithType:
+        CSharp: BusinessException.BusinessException(String)
+        VB: BusinessException.BusinessException(String)
+      qualifiedName:
+        CSharp: Backend.Core.Exceptions.BusinessException.BusinessException(System.String)
+        VB: Backend.Core.Exceptions.BusinessException.BusinessException(System.String)
+      type: Constructor
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Exceptions
+      source:
+        remote:
+          path: BackendCore/Exceptions/BusinessException.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: .ctor
+        path: ../BackendCore/Exceptions/BusinessException.cs
+        startLine: 11
+      syntax:
+        content:
+          CSharp: public BusinessException(string message)
+          VB: Public Sub New(message As String)
+        parameters:
+        - id: message
+          type: System.String
+      overload: Backend.Core.Exceptions.BusinessException.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: Backend.Core.Exceptions.BusinessException.#ctor(System.String,System.Exception)
+      commentId: M:Backend.Core.Exceptions.BusinessException.#ctor(System.String,System.Exception)
+      language: CSharp
+      name:
+        CSharp: BusinessException(String, Exception)
+        VB: BusinessException(String, Exception)
+      nameWithType:
+        CSharp: BusinessException.BusinessException(String, Exception)
+        VB: BusinessException.BusinessException(String, Exception)
+      qualifiedName:
+        CSharp: Backend.Core.Exceptions.BusinessException.BusinessException(System.String, System.Exception)
+        VB: Backend.Core.Exceptions.BusinessException.BusinessException(System.String, System.Exception)
+      type: Constructor
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Exceptions
+      source:
+        remote:
+          path: BackendCore/Exceptions/BusinessException.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: .ctor
+        path: ../BackendCore/Exceptions/BusinessException.cs
+        startLine: 15
+      syntax:
+        content:
+          CSharp: public BusinessException(string message, Exception exception)
+          VB: Public Sub New(message As String, exception As Exception)
+        parameters:
+        - id: message
+          type: System.String
+        - id: exception
+          type: System.Exception
+      overload: Backend.Core.Exceptions.BusinessException.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+- id: Backend.Core.Interfaces
+  commentId: N:Backend.Core.Interfaces
+  language: CSharp
+  name:
+    CSharp: Backend.Core.Interfaces
+    VB: Backend.Core.Interfaces
+  nameWithType:
+    CSharp: Backend.Core.Interfaces
+    VB: Backend.Core.Interfaces
+  qualifiedName:
+    CSharp: Backend.Core.Interfaces
+    VB: Backend.Core.Interfaces
+  type: Namespace
+  assemblies:
+  - Backend.Core
+  modifiers: {}
+  items:
+  - id: Backend.Core.Interfaces.IEstudianteRepository
+    commentId: T:Backend.Core.Interfaces.IEstudianteRepository
+    language: CSharp
+    name:
+      CSharp: IEstudianteRepository
+      VB: IEstudianteRepository
+    nameWithType:
+      CSharp: IEstudianteRepository
+      VB: IEstudianteRepository
+    qualifiedName:
+      CSharp: Backend.Core.Interfaces.IEstudianteRepository
+      VB: Backend.Core.Interfaces.IEstudianteRepository
+    type: Interface
+    assemblies:
+    - Backend.Core
+    namespace: Backend.Core.Interfaces
+    source:
+      remote:
+        path: BackendCore/Interfaces/IEstudianteRepository.cs
+        branch: main
+        repo: https://github.com/Julia1297/backend.git
+      id: IEstudianteRepository
+      path: ../BackendCore/Interfaces/IEstudianteRepository.cs
+      startLine: 6
+    syntax:
+      content:
+        CSharp: public interface IEstudianteRepository
+        VB: Public Interface IEstudianteRepository
+    modifiers:
+      CSharp:
+      - public
+      - interface
+      VB:
+      - Public
+      - Interface
+    items:
+    - id: Backend.Core.Interfaces.IEstudianteRepository.AddEstudiante(Backend.Core.Entities.Estudiante)
+      commentId: M:Backend.Core.Interfaces.IEstudianteRepository.AddEstudiante(Backend.Core.Entities.Estudiante)
+      language: CSharp
+      name:
+        CSharp: AddEstudiante(Estudiante)
+        VB: AddEstudiante(Estudiante)
+      nameWithType:
+        CSharp: IEstudianteRepository.AddEstudiante(Estudiante)
+        VB: IEstudianteRepository.AddEstudiante(Estudiante)
+      qualifiedName:
+        CSharp: Backend.Core.Interfaces.IEstudianteRepository.AddEstudiante(Backend.Core.Entities.Estudiante)
+        VB: Backend.Core.Interfaces.IEstudianteRepository.AddEstudiante(Backend.Core.Entities.Estudiante)
+      type: Method
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Interfaces
+      source:
+        remote:
+          path: BackendCore/Interfaces/IEstudianteRepository.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: AddEstudiante
+        path: ../BackendCore/Interfaces/IEstudianteRepository.cs
+        startLine: 8
+      syntax:
+        content:
+          CSharp: Task<bool> AddEstudiante(Estudiante estudiante)
+          VB: Function AddEstudiante(estudiante As Estudiante) As Task(Of Boolean)
+        parameters:
+        - id: estudiante
+          type: Backend.Core.Entities.Estudiante
+        return:
+          type: System.Threading.Tasks.Task{System.Boolean}
+      overload: Backend.Core.Interfaces.IEstudianteRepository.AddEstudiante*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: Backend.Core.Interfaces.IEstudianteRepository.GetEstudiantes
+      commentId: M:Backend.Core.Interfaces.IEstudianteRepository.GetEstudiantes
+      language: CSharp
+      name:
+        CSharp: GetEstudiantes()
+        VB: GetEstudiantes()
+      nameWithType:
+        CSharp: IEstudianteRepository.GetEstudiantes()
+        VB: IEstudianteRepository.GetEstudiantes()
+      qualifiedName:
+        CSharp: Backend.Core.Interfaces.IEstudianteRepository.GetEstudiantes()
+        VB: Backend.Core.Interfaces.IEstudianteRepository.GetEstudiantes()
+      type: Method
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Interfaces
+      source:
+        remote:
+          path: BackendCore/Interfaces/IEstudianteRepository.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: GetEstudiantes
+        path: ../BackendCore/Interfaces/IEstudianteRepository.cs
+        startLine: 9
+      syntax:
+        content:
+          CSharp: Task<object> GetEstudiantes()
+          VB: Function GetEstudiantes As Task(Of Object)
+        return:
+          type: System.Threading.Tasks.Task{System.Object}
+      overload: Backend.Core.Interfaces.IEstudianteRepository.GetEstudiantes*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: Backend.Core.Interfaces.IEstudianteRepository.GenerarDatos
+      commentId: M:Backend.Core.Interfaces.IEstudianteRepository.GenerarDatos
+      language: CSharp
+      name:
+        CSharp: GenerarDatos()
+        VB: GenerarDatos()
+      nameWithType:
+        CSharp: IEstudianteRepository.GenerarDatos()
+        VB: IEstudianteRepository.GenerarDatos()
+      qualifiedName:
+        CSharp: Backend.Core.Interfaces.IEstudianteRepository.GenerarDatos()
+        VB: Backend.Core.Interfaces.IEstudianteRepository.GenerarDatos()
+      type: Method
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Interfaces
+      source:
+        remote:
+          path: BackendCore/Interfaces/IEstudianteRepository.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: GenerarDatos
+        path: ../BackendCore/Interfaces/IEstudianteRepository.cs
+        startLine: 11
+      syntax:
+        content:
+          CSharp: Task<bool> GenerarDatos()
+          VB: Function GenerarDatos As Task(Of Boolean)
+        return:
+          type: System.Threading.Tasks.Task{System.Boolean}
+      overload: Backend.Core.Interfaces.IEstudianteRepository.GenerarDatos*
+      modifiers:
+        CSharp: []
+        VB: []
+  - id: Backend.Core.Interfaces.IInscripcionRepository
+    commentId: T:Backend.Core.Interfaces.IInscripcionRepository
+    language: CSharp
+    name:
+      CSharp: IInscripcionRepository
+      VB: IInscripcionRepository
+    nameWithType:
+      CSharp: IInscripcionRepository
+      VB: IInscripcionRepository
+    qualifiedName:
+      CSharp: Backend.Core.Interfaces.IInscripcionRepository
+      VB: Backend.Core.Interfaces.IInscripcionRepository
+    type: Interface
+    assemblies:
+    - Backend.Core
+    namespace: Backend.Core.Interfaces
+    source:
+      remote:
+        path: BackendCore/Interfaces/IInscripcionRepository.cs
+        branch: main
+        repo: https://github.com/Julia1297/backend.git
+      id: IInscripcionRepository
+      path: ../BackendCore/Interfaces/IInscripcionRepository.cs
+      startLine: 5
+    syntax:
+      content:
+        CSharp: public interface IInscripcionRepository
+        VB: Public Interface IInscripcionRepository
+    modifiers:
+      CSharp:
+      - public
+      - interface
+      VB:
+      - Public
+      - Interface
+    items:
+    - id: Backend.Core.Interfaces.IInscripcionRepository.Getinscripciones
+      commentId: M:Backend.Core.Interfaces.IInscripcionRepository.Getinscripciones
+      language: CSharp
+      name:
+        CSharp: Getinscripciones()
+        VB: Getinscripciones()
+      nameWithType:
+        CSharp: IInscripcionRepository.Getinscripciones()
+        VB: IInscripcionRepository.Getinscripciones()
+      qualifiedName:
+        CSharp: Backend.Core.Interfaces.IInscripcionRepository.Getinscripciones()
+        VB: Backend.Core.Interfaces.IInscripcionRepository.Getinscripciones()
+      type: Method
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Interfaces
+      source:
+        remote:
+          path: BackendCore/Interfaces/IInscripcionRepository.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: Getinscripciones
+        path: ../BackendCore/Interfaces/IInscripcionRepository.cs
+        startLine: 7
+      syntax:
+        content:
+          CSharp: Task<object> Getinscripciones()
+          VB: Function Getinscripciones As Task(Of Object)
+        return:
+          type: System.Threading.Tasks.Task{System.Object}
+      overload: Backend.Core.Interfaces.IInscripcionRepository.Getinscripciones*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: Backend.Core.Interfaces.IInscripcionRepository.GetEstudiantesPorMateria(System.Int32)
+      commentId: M:Backend.Core.Interfaces.IInscripcionRepository.GetEstudiantesPorMateria(System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetEstudiantesPorMateria(Int32)
+        VB: GetEstudiantesPorMateria(Int32)
+      nameWithType:
+        CSharp: IInscripcionRepository.GetEstudiantesPorMateria(Int32)
+        VB: IInscripcionRepository.GetEstudiantesPorMateria(Int32)
+      qualifiedName:
+        CSharp: Backend.Core.Interfaces.IInscripcionRepository.GetEstudiantesPorMateria(System.Int32)
+        VB: Backend.Core.Interfaces.IInscripcionRepository.GetEstudiantesPorMateria(System.Int32)
+      type: Method
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Interfaces
+      source:
+        remote:
+          path: BackendCore/Interfaces/IInscripcionRepository.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: GetEstudiantesPorMateria
+        path: ../BackendCore/Interfaces/IInscripcionRepository.cs
+        startLine: 8
+      syntax:
+        content:
+          CSharp: Task<object> GetEstudiantesPorMateria(int idMateria)
+          VB: Function GetEstudiantesPorMateria(idMateria As Integer) As Task(Of Object)
+        parameters:
+        - id: idMateria
+          type: System.Int32
+        return:
+          type: System.Threading.Tasks.Task{System.Object}
+      overload: Backend.Core.Interfaces.IInscripcionRepository.GetEstudiantesPorMateria*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: Backend.Core.Interfaces.IInscripcionRepository.GetMateriasPorEstudiante(System.Int32)
+      commentId: M:Backend.Core.Interfaces.IInscripcionRepository.GetMateriasPorEstudiante(System.Int32)
+      language: CSharp
+      name:
+        CSharp: GetMateriasPorEstudiante(Int32)
+        VB: GetMateriasPorEstudiante(Int32)
+      nameWithType:
+        CSharp: IInscripcionRepository.GetMateriasPorEstudiante(Int32)
+        VB: IInscripcionRepository.GetMateriasPorEstudiante(Int32)
+      qualifiedName:
+        CSharp: Backend.Core.Interfaces.IInscripcionRepository.GetMateriasPorEstudiante(System.Int32)
+        VB: Backend.Core.Interfaces.IInscripcionRepository.GetMateriasPorEstudiante(System.Int32)
+      type: Method
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Interfaces
+      source:
+        remote:
+          path: BackendCore/Interfaces/IInscripcionRepository.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: GetMateriasPorEstudiante
+        path: ../BackendCore/Interfaces/IInscripcionRepository.cs
+        startLine: 9
+      syntax:
+        content:
+          CSharp: Task<object> GetMateriasPorEstudiante(int idEstudiante)
+          VB: Function GetMateriasPorEstudiante(idEstudiante As Integer) As Task(Of Object)
+        parameters:
+        - id: idEstudiante
+          type: System.Int32
+        return:
+          type: System.Threading.Tasks.Task{System.Object}
+      overload: Backend.Core.Interfaces.IInscripcionRepository.GetMateriasPorEstudiante*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: Backend.Core.Interfaces.IInscripcionRepository.AddInscripcion(Backend.Core.Entities.Inscripcion)
+      commentId: M:Backend.Core.Interfaces.IInscripcionRepository.AddInscripcion(Backend.Core.Entities.Inscripcion)
+      language: CSharp
+      name:
+        CSharp: AddInscripcion(Inscripcion)
+        VB: AddInscripcion(Inscripcion)
+      nameWithType:
+        CSharp: IInscripcionRepository.AddInscripcion(Inscripcion)
+        VB: IInscripcionRepository.AddInscripcion(Inscripcion)
+      qualifiedName:
+        CSharp: Backend.Core.Interfaces.IInscripcionRepository.AddInscripcion(Backend.Core.Entities.Inscripcion)
+        VB: Backend.Core.Interfaces.IInscripcionRepository.AddInscripcion(Backend.Core.Entities.Inscripcion)
+      type: Method
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Interfaces
+      source:
+        remote:
+          path: BackendCore/Interfaces/IInscripcionRepository.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: AddInscripcion
+        path: ../BackendCore/Interfaces/IInscripcionRepository.cs
+        startLine: 11
+      syntax:
+        content:
+          CSharp: Task<bool> AddInscripcion(Inscripcion inscripcion)
+          VB: Function AddInscripcion(inscripcion As Inscripcion) As Task(Of Boolean)
+        parameters:
+        - id: inscripcion
+          type: Backend.Core.Entities.Inscripcion
+        return:
+          type: System.Threading.Tasks.Task{System.Boolean}
+      overload: Backend.Core.Interfaces.IInscripcionRepository.AddInscripcion*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: Backend.Core.Interfaces.IInscripcionRepository.DeleteInscripcion(System.Int32)
+      commentId: M:Backend.Core.Interfaces.IInscripcionRepository.DeleteInscripcion(System.Int32)
+      language: CSharp
+      name:
+        CSharp: DeleteInscripcion(Int32)
+        VB: DeleteInscripcion(Int32)
+      nameWithType:
+        CSharp: IInscripcionRepository.DeleteInscripcion(Int32)
+        VB: IInscripcionRepository.DeleteInscripcion(Int32)
+      qualifiedName:
+        CSharp: Backend.Core.Interfaces.IInscripcionRepository.DeleteInscripcion(System.Int32)
+        VB: Backend.Core.Interfaces.IInscripcionRepository.DeleteInscripcion(System.Int32)
+      type: Method
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Interfaces
+      source:
+        remote:
+          path: BackendCore/Interfaces/IInscripcionRepository.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: DeleteInscripcion
+        path: ../BackendCore/Interfaces/IInscripcionRepository.cs
+        startLine: 12
+      syntax:
+        content:
+          CSharp: Task<bool> DeleteInscripcion(int id)
+          VB: Function DeleteInscripcion(id As Integer) As Task(Of Boolean)
+        parameters:
+        - id: id
+          type: System.Int32
+        return:
+          type: System.Threading.Tasks.Task{System.Boolean}
+      overload: Backend.Core.Interfaces.IInscripcionRepository.DeleteInscripcion*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: Backend.Core.Interfaces.IInscripcionRepository.UpdateInscripcion(Backend.Core.Entities.Inscripcion)
+      commentId: M:Backend.Core.Interfaces.IInscripcionRepository.UpdateInscripcion(Backend.Core.Entities.Inscripcion)
+      language: CSharp
+      name:
+        CSharp: UpdateInscripcion(Inscripcion)
+        VB: UpdateInscripcion(Inscripcion)
+      nameWithType:
+        CSharp: IInscripcionRepository.UpdateInscripcion(Inscripcion)
+        VB: IInscripcionRepository.UpdateInscripcion(Inscripcion)
+      qualifiedName:
+        CSharp: Backend.Core.Interfaces.IInscripcionRepository.UpdateInscripcion(Backend.Core.Entities.Inscripcion)
+        VB: Backend.Core.Interfaces.IInscripcionRepository.UpdateInscripcion(Backend.Core.Entities.Inscripcion)
+      type: Method
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Interfaces
+      source:
+        remote:
+          path: BackendCore/Interfaces/IInscripcionRepository.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: UpdateInscripcion
+        path: ../BackendCore/Interfaces/IInscripcionRepository.cs
+        startLine: 13
+      syntax:
+        content:
+          CSharp: Task<bool> UpdateInscripcion(Inscripcion inscripcion)
+          VB: Function UpdateInscripcion(inscripcion As Inscripcion) As Task(Of Boolean)
+        parameters:
+        - id: inscripcion
+          type: Backend.Core.Entities.Inscripcion
+        return:
+          type: System.Threading.Tasks.Task{System.Boolean}
+      overload: Backend.Core.Interfaces.IInscripcionRepository.UpdateInscripcion*
+      modifiers:
+        CSharp: []
+        VB: []
+  - id: Backend.Core.Interfaces.IMateriaRepository
+    commentId: T:Backend.Core.Interfaces.IMateriaRepository
+    language: CSharp
+    name:
+      CSharp: IMateriaRepository
+      VB: IMateriaRepository
+    nameWithType:
+      CSharp: IMateriaRepository
+      VB: IMateriaRepository
+    qualifiedName:
+      CSharp: Backend.Core.Interfaces.IMateriaRepository
+      VB: Backend.Core.Interfaces.IMateriaRepository
+    type: Interface
+    assemblies:
+    - Backend.Core
+    namespace: Backend.Core.Interfaces
+    source:
+      remote:
+        path: BackendCore/Interfaces/IMateriaRepository.cs
+        branch: main
+        repo: https://github.com/Julia1297/backend.git
+      id: IMateriaRepository
+      path: ../BackendCore/Interfaces/IMateriaRepository.cs
+      startLine: 4
+    syntax:
+      content:
+        CSharp: public interface IMateriaRepository
+        VB: Public Interface IMateriaRepository
+    modifiers:
+      CSharp:
+      - public
+      - interface
+      VB:
+      - Public
+      - Interface
+    items:
+    - id: Backend.Core.Interfaces.IMateriaRepository.GetMaterias
+      commentId: M:Backend.Core.Interfaces.IMateriaRepository.GetMaterias
+      language: CSharp
+      name:
+        CSharp: GetMaterias()
+        VB: GetMaterias()
+      nameWithType:
+        CSharp: IMateriaRepository.GetMaterias()
+        VB: IMateriaRepository.GetMaterias()
+      qualifiedName:
+        CSharp: Backend.Core.Interfaces.IMateriaRepository.GetMaterias()
+        VB: Backend.Core.Interfaces.IMateriaRepository.GetMaterias()
+      type: Method
+      assemblies:
+      - Backend.Core
+      namespace: Backend.Core.Interfaces
+      source:
+        remote:
+          path: BackendCore/Interfaces/IMateriaRepository.cs
+          branch: main
+          repo: https://github.com/Julia1297/backend.git
+        id: GetMaterias
+        path: ../BackendCore/Interfaces/IMateriaRepository.cs
+        startLine: 6
+      syntax:
+        content:
+          CSharp: Task<object> GetMaterias()
+          VB: Function GetMaterias As Task(Of Object)
+        return:
+          type: System.Threading.Tasks.Task{System.Object}
+      overload: Backend.Core.Interfaces.IMateriaRepository.GetMaterias*
+      modifiers:
+        CSharp: []
+        VB: []
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+        isExternal: true
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.Object:
+    name:
+      CSharp:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      VB:
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Object
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Int32
+  Backend.Core.Entities.Estudiante.IdEstudiante*:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Estudiante.IdEstudiante*
+        name: IdEstudiante
+        nameWithType: Estudiante.IdEstudiante
+        qualifiedName: Backend.Core.Entities.Estudiante.IdEstudiante
+      VB:
+      - id: Backend.Core.Entities.Estudiante.IdEstudiante*
+        name: IdEstudiante
+        nameWithType: Estudiante.IdEstudiante
+        qualifiedName: Backend.Core.Entities.Estudiante.IdEstudiante
+    isDefinition: true
+    commentId: Overload:Backend.Core.Entities.Estudiante.IdEstudiante
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  Backend.Core.Entities.Estudiante.Nombres*:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Estudiante.Nombres*
+        name: Nombres
+        nameWithType: Estudiante.Nombres
+        qualifiedName: Backend.Core.Entities.Estudiante.Nombres
+      VB:
+      - id: Backend.Core.Entities.Estudiante.Nombres*
+        name: Nombres
+        nameWithType: Estudiante.Nombres
+        qualifiedName: Backend.Core.Entities.Estudiante.Nombres
+    isDefinition: true
+    commentId: Overload:Backend.Core.Entities.Estudiante.Nombres
+  Backend.Core.Entities.Estudiante.Apellidos*:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Estudiante.Apellidos*
+        name: Apellidos
+        nameWithType: Estudiante.Apellidos
+        qualifiedName: Backend.Core.Entities.Estudiante.Apellidos
+      VB:
+      - id: Backend.Core.Entities.Estudiante.Apellidos*
+        name: Apellidos
+        nameWithType: Estudiante.Apellidos
+        qualifiedName: Backend.Core.Entities.Estudiante.Apellidos
+    isDefinition: true
+    commentId: Overload:Backend.Core.Entities.Estudiante.Apellidos
+  Backend.Core.Entities.Estudiante.Ci*:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Estudiante.Ci*
+        name: Ci
+        nameWithType: Estudiante.Ci
+        qualifiedName: Backend.Core.Entities.Estudiante.Ci
+      VB:
+      - id: Backend.Core.Entities.Estudiante.Ci*
+        name: Ci
+        nameWithType: Estudiante.Ci
+        qualifiedName: Backend.Core.Entities.Estudiante.Ci
+    isDefinition: true
+    commentId: Overload:Backend.Core.Entities.Estudiante.Ci
+  System.DateTime:
+    name:
+      CSharp:
+      - id: System.DateTime
+        name: DateTime
+        nameWithType: DateTime
+        qualifiedName: System.DateTime
+        isExternal: true
+      VB:
+      - id: System.DateTime
+        name: DateTime
+        nameWithType: DateTime
+        qualifiedName: System.DateTime
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.DateTime
+  Backend.Core.Entities.Estudiante.FechaNacimiento*:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Estudiante.FechaNacimiento*
+        name: FechaNacimiento
+        nameWithType: Estudiante.FechaNacimiento
+        qualifiedName: Backend.Core.Entities.Estudiante.FechaNacimiento
+      VB:
+      - id: Backend.Core.Entities.Estudiante.FechaNacimiento*
+        name: FechaNacimiento
+        nameWithType: Estudiante.FechaNacimiento
+        qualifiedName: Backend.Core.Entities.Estudiante.FechaNacimiento
+    isDefinition: true
+    commentId: Overload:Backend.Core.Entities.Estudiante.FechaNacimiento
+  Backend.Core.Entities.Estudiante:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Estudiante
+        name: Estudiante
+        nameWithType: Estudiante
+        qualifiedName: Backend.Core.Entities.Estudiante
+      VB:
+      - id: Backend.Core.Entities.Estudiante
+        name: Estudiante
+        nameWithType: Estudiante
+        qualifiedName: Backend.Core.Entities.Estudiante
+    isDefinition: true
+    parent: Backend.Core.Entities
+    commentId: T:Backend.Core.Entities.Estudiante
+  Backend.Core.Entities.Inscripcion.IdInscripcion*:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Inscripcion.IdInscripcion*
+        name: IdInscripcion
+        nameWithType: Inscripcion.IdInscripcion
+        qualifiedName: Backend.Core.Entities.Inscripcion.IdInscripcion
+      VB:
+      - id: Backend.Core.Entities.Inscripcion.IdInscripcion*
+        name: IdInscripcion
+        nameWithType: Inscripcion.IdInscripcion
+        qualifiedName: Backend.Core.Entities.Inscripcion.IdInscripcion
+    isDefinition: true
+    commentId: Overload:Backend.Core.Entities.Inscripcion.IdInscripcion
+  Backend.Core.Entities.Inscripcion.Descripcion*:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Inscripcion.Descripcion*
+        name: Descripcion
+        nameWithType: Inscripcion.Descripcion
+        qualifiedName: Backend.Core.Entities.Inscripcion.Descripcion
+      VB:
+      - id: Backend.Core.Entities.Inscripcion.Descripcion*
+        name: Descripcion
+        nameWithType: Inscripcion.Descripcion
+        qualifiedName: Backend.Core.Entities.Inscripcion.Descripcion
+    isDefinition: true
+    commentId: Overload:Backend.Core.Entities.Inscripcion.Descripcion
+  Backend.Core.Entities.Inscripcion.IdMateria*:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Inscripcion.IdMateria*
+        name: IdMateria
+        nameWithType: Inscripcion.IdMateria
+        qualifiedName: Backend.Core.Entities.Inscripcion.IdMateria
+      VB:
+      - id: Backend.Core.Entities.Inscripcion.IdMateria*
+        name: IdMateria
+        nameWithType: Inscripcion.IdMateria
+        qualifiedName: Backend.Core.Entities.Inscripcion.IdMateria
+    isDefinition: true
+    commentId: Overload:Backend.Core.Entities.Inscripcion.IdMateria
+  Backend.Core.Entities.Inscripcion.IdEstudiante*:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Inscripcion.IdEstudiante*
+        name: IdEstudiante
+        nameWithType: Inscripcion.IdEstudiante
+        qualifiedName: Backend.Core.Entities.Inscripcion.IdEstudiante
+      VB:
+      - id: Backend.Core.Entities.Inscripcion.IdEstudiante*
+        name: IdEstudiante
+        nameWithType: Inscripcion.IdEstudiante
+        qualifiedName: Backend.Core.Entities.Inscripcion.IdEstudiante
+    isDefinition: true
+    commentId: Overload:Backend.Core.Entities.Inscripcion.IdEstudiante
+  Backend.Core.Entities.Inscripcion:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Inscripcion
+        name: Inscripcion
+        nameWithType: Inscripcion
+        qualifiedName: Backend.Core.Entities.Inscripcion
+      VB:
+      - id: Backend.Core.Entities.Inscripcion
+        name: Inscripcion
+        nameWithType: Inscripcion
+        qualifiedName: Backend.Core.Entities.Inscripcion
+    isDefinition: true
+    parent: Backend.Core.Entities
+    commentId: T:Backend.Core.Entities.Inscripcion
+  Backend.Core.Entities.Materia.IdMateria*:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Materia.IdMateria*
+        name: IdMateria
+        nameWithType: Materia.IdMateria
+        qualifiedName: Backend.Core.Entities.Materia.IdMateria
+      VB:
+      - id: Backend.Core.Entities.Materia.IdMateria*
+        name: IdMateria
+        nameWithType: Materia.IdMateria
+        qualifiedName: Backend.Core.Entities.Materia.IdMateria
+    isDefinition: true
+    commentId: Overload:Backend.Core.Entities.Materia.IdMateria
+  Backend.Core.Entities.Materia.Nombre*:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Materia.Nombre*
+        name: Nombre
+        nameWithType: Materia.Nombre
+        qualifiedName: Backend.Core.Entities.Materia.Nombre
+      VB:
+      - id: Backend.Core.Entities.Materia.Nombre*
+        name: Nombre
+        nameWithType: Materia.Nombre
+        qualifiedName: Backend.Core.Entities.Materia.Nombre
+    isDefinition: true
+    commentId: Overload:Backend.Core.Entities.Materia.Nombre
+  Backend.Core.Entities.Materia.Sigla*:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Materia.Sigla*
+        name: Sigla
+        nameWithType: Materia.Sigla
+        qualifiedName: Backend.Core.Entities.Materia.Sigla
+      VB:
+      - id: Backend.Core.Entities.Materia.Sigla*
+        name: Sigla
+        nameWithType: Materia.Sigla
+        qualifiedName: Backend.Core.Entities.Materia.Sigla
+    isDefinition: true
+    commentId: Overload:Backend.Core.Entities.Materia.Sigla
+  Backend.Core.Entities.Materia:
+    name:
+      CSharp:
+      - id: Backend.Core.Entities.Materia
+        name: Materia
+        nameWithType: Materia
+        qualifiedName: Backend.Core.Entities.Materia
+      VB:
+      - id: Backend.Core.Entities.Materia
+        name: Materia
+        nameWithType: Materia
+        qualifiedName: Backend.Core.Entities.Materia
+    isDefinition: true
+    commentId: T:Backend.Core.Entities.Materia
+  Backend.Core.Entities:
+    name:
+      CSharp:
+      - name: Backend.Core.Entities
+        nameWithType: Backend.Core.Entities
+        qualifiedName: Backend.Core.Entities
+      VB:
+      - name: Backend.Core.Entities
+        nameWithType: Backend.Core.Entities
+        qualifiedName: Backend.Core.Entities
+    isDefinition: true
+    commentId: N:Backend.Core.Entities
+  System.Exception:
+    name:
+      CSharp:
+      - id: System.Exception
+        name: Exception
+        nameWithType: Exception
+        qualifiedName: System.Exception
+        isExternal: true
+      VB:
+      - id: System.Exception
+        name: Exception
+        nameWithType: Exception
+        qualifiedName: System.Exception
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.Exception
+  Backend.Core.Exceptions.BusinessException.#ctor*:
+    name:
+      CSharp:
+      - id: Backend.Core.Exceptions.BusinessException.#ctor*
+        name: BusinessException
+        nameWithType: BusinessException.BusinessException
+        qualifiedName: Backend.Core.Exceptions.BusinessException.BusinessException
+      VB:
+      - id: Backend.Core.Exceptions.BusinessException.#ctor*
+        name: BusinessException
+        nameWithType: BusinessException.BusinessException
+        qualifiedName: Backend.Core.Exceptions.BusinessException.BusinessException
+    isDefinition: true
+    commentId: Overload:Backend.Core.Exceptions.BusinessException.#ctor
+  Backend.Core.Exceptions.BusinessException:
+    name:
+      CSharp:
+      - id: Backend.Core.Exceptions.BusinessException
+        name: BusinessException
+        nameWithType: BusinessException
+        qualifiedName: Backend.Core.Exceptions.BusinessException
+      VB:
+      - id: Backend.Core.Exceptions.BusinessException
+        name: BusinessException
+        nameWithType: BusinessException
+        qualifiedName: Backend.Core.Exceptions.BusinessException
+    isDefinition: true
+    commentId: T:Backend.Core.Exceptions.BusinessException
+  Backend.Core.Exceptions:
+    name:
+      CSharp:
+      - name: Backend.Core.Exceptions
+        nameWithType: Backend.Core.Exceptions
+        qualifiedName: Backend.Core.Exceptions
+      VB:
+      - name: Backend.Core.Exceptions
+        nameWithType: Backend.Core.Exceptions
+        qualifiedName: Backend.Core.Exceptions
+    isDefinition: true
+    commentId: N:Backend.Core.Exceptions
+  System.Threading.Tasks.Task`1:
+    name:
+      CSharp:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: TResult
+        nameWithType: TResult
+        qualifiedName: TResult
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: TResult
+        nameWithType: TResult
+        qualifiedName: TResult
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: T:System.Threading.Tasks.Task`1
+  System.Threading.Tasks:
+    name:
+      CSharp:
+      - name: System.Threading.Tasks
+        nameWithType: System.Threading.Tasks
+        qualifiedName: System.Threading.Tasks
+        isExternal: true
+      VB:
+      - name: System.Threading.Tasks
+        nameWithType: System.Threading.Tasks
+        qualifiedName: System.Threading.Tasks
+    isDefinition: true
+    commentId: N:System.Threading.Tasks
+  System.Threading.Tasks.Task{System.Boolean}:
+    name:
+      CSharp:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Threading.Tasks.Task`1
+    parent: System.Threading.Tasks
+    commentId: T:System.Threading.Tasks.Task{System.Boolean}
+  Backend.Core.Interfaces.IEstudianteRepository.AddEstudiante*:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IEstudianteRepository.AddEstudiante*
+        name: AddEstudiante
+        nameWithType: IEstudianteRepository.AddEstudiante
+        qualifiedName: Backend.Core.Interfaces.IEstudianteRepository.AddEstudiante
+      VB:
+      - id: Backend.Core.Interfaces.IEstudianteRepository.AddEstudiante*
+        name: AddEstudiante
+        nameWithType: IEstudianteRepository.AddEstudiante
+        qualifiedName: Backend.Core.Interfaces.IEstudianteRepository.AddEstudiante
+    isDefinition: true
+    commentId: Overload:Backend.Core.Interfaces.IEstudianteRepository.AddEstudiante
+  System.Threading.Tasks.Task{System.Object}:
+    name:
+      CSharp:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Threading.Tasks.Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: System.Threading.Tasks.Task
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.Object
+        name: Object
+        nameWithType: Object
+        qualifiedName: System.Object
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Threading.Tasks.Task`1
+    parent: System.Threading.Tasks
+    commentId: T:System.Threading.Tasks.Task{System.Object}
+  Backend.Core.Interfaces.IEstudianteRepository.GetEstudiantes*:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IEstudianteRepository.GetEstudiantes*
+        name: GetEstudiantes
+        nameWithType: IEstudianteRepository.GetEstudiantes
+        qualifiedName: Backend.Core.Interfaces.IEstudianteRepository.GetEstudiantes
+      VB:
+      - id: Backend.Core.Interfaces.IEstudianteRepository.GetEstudiantes*
+        name: GetEstudiantes
+        nameWithType: IEstudianteRepository.GetEstudiantes
+        qualifiedName: Backend.Core.Interfaces.IEstudianteRepository.GetEstudiantes
+    isDefinition: true
+    commentId: Overload:Backend.Core.Interfaces.IEstudianteRepository.GetEstudiantes
+  Backend.Core.Interfaces.IEstudianteRepository.GenerarDatos*:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IEstudianteRepository.GenerarDatos*
+        name: GenerarDatos
+        nameWithType: IEstudianteRepository.GenerarDatos
+        qualifiedName: Backend.Core.Interfaces.IEstudianteRepository.GenerarDatos
+      VB:
+      - id: Backend.Core.Interfaces.IEstudianteRepository.GenerarDatos*
+        name: GenerarDatos
+        nameWithType: IEstudianteRepository.GenerarDatos
+        qualifiedName: Backend.Core.Interfaces.IEstudianteRepository.GenerarDatos
+    isDefinition: true
+    commentId: Overload:Backend.Core.Interfaces.IEstudianteRepository.GenerarDatos
+  Backend.Core.Interfaces.IEstudianteRepository:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IEstudianteRepository
+        name: IEstudianteRepository
+        nameWithType: IEstudianteRepository
+        qualifiedName: Backend.Core.Interfaces.IEstudianteRepository
+      VB:
+      - id: Backend.Core.Interfaces.IEstudianteRepository
+        name: IEstudianteRepository
+        nameWithType: IEstudianteRepository
+        qualifiedName: Backend.Core.Interfaces.IEstudianteRepository
+    isDefinition: true
+    commentId: T:Backend.Core.Interfaces.IEstudianteRepository
+  Backend.Core.Interfaces.IInscripcionRepository.Getinscripciones*:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IInscripcionRepository.Getinscripciones*
+        name: Getinscripciones
+        nameWithType: IInscripcionRepository.Getinscripciones
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository.Getinscripciones
+      VB:
+      - id: Backend.Core.Interfaces.IInscripcionRepository.Getinscripciones*
+        name: Getinscripciones
+        nameWithType: IInscripcionRepository.Getinscripciones
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository.Getinscripciones
+    isDefinition: true
+    commentId: Overload:Backend.Core.Interfaces.IInscripcionRepository.Getinscripciones
+  Backend.Core.Interfaces.IInscripcionRepository.GetEstudiantesPorMateria*:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IInscripcionRepository.GetEstudiantesPorMateria*
+        name: GetEstudiantesPorMateria
+        nameWithType: IInscripcionRepository.GetEstudiantesPorMateria
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository.GetEstudiantesPorMateria
+      VB:
+      - id: Backend.Core.Interfaces.IInscripcionRepository.GetEstudiantesPorMateria*
+        name: GetEstudiantesPorMateria
+        nameWithType: IInscripcionRepository.GetEstudiantesPorMateria
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository.GetEstudiantesPorMateria
+    isDefinition: true
+    commentId: Overload:Backend.Core.Interfaces.IInscripcionRepository.GetEstudiantesPorMateria
+  Backend.Core.Interfaces.IInscripcionRepository.GetMateriasPorEstudiante*:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IInscripcionRepository.GetMateriasPorEstudiante*
+        name: GetMateriasPorEstudiante
+        nameWithType: IInscripcionRepository.GetMateriasPorEstudiante
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository.GetMateriasPorEstudiante
+      VB:
+      - id: Backend.Core.Interfaces.IInscripcionRepository.GetMateriasPorEstudiante*
+        name: GetMateriasPorEstudiante
+        nameWithType: IInscripcionRepository.GetMateriasPorEstudiante
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository.GetMateriasPorEstudiante
+    isDefinition: true
+    commentId: Overload:Backend.Core.Interfaces.IInscripcionRepository.GetMateriasPorEstudiante
+  Backend.Core.Interfaces.IInscripcionRepository.AddInscripcion*:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IInscripcionRepository.AddInscripcion*
+        name: AddInscripcion
+        nameWithType: IInscripcionRepository.AddInscripcion
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository.AddInscripcion
+      VB:
+      - id: Backend.Core.Interfaces.IInscripcionRepository.AddInscripcion*
+        name: AddInscripcion
+        nameWithType: IInscripcionRepository.AddInscripcion
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository.AddInscripcion
+    isDefinition: true
+    commentId: Overload:Backend.Core.Interfaces.IInscripcionRepository.AddInscripcion
+  Backend.Core.Interfaces.IInscripcionRepository.DeleteInscripcion*:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IInscripcionRepository.DeleteInscripcion*
+        name: DeleteInscripcion
+        nameWithType: IInscripcionRepository.DeleteInscripcion
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository.DeleteInscripcion
+      VB:
+      - id: Backend.Core.Interfaces.IInscripcionRepository.DeleteInscripcion*
+        name: DeleteInscripcion
+        nameWithType: IInscripcionRepository.DeleteInscripcion
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository.DeleteInscripcion
+    isDefinition: true
+    commentId: Overload:Backend.Core.Interfaces.IInscripcionRepository.DeleteInscripcion
+  Backend.Core.Interfaces.IInscripcionRepository.UpdateInscripcion*:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IInscripcionRepository.UpdateInscripcion*
+        name: UpdateInscripcion
+        nameWithType: IInscripcionRepository.UpdateInscripcion
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository.UpdateInscripcion
+      VB:
+      - id: Backend.Core.Interfaces.IInscripcionRepository.UpdateInscripcion*
+        name: UpdateInscripcion
+        nameWithType: IInscripcionRepository.UpdateInscripcion
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository.UpdateInscripcion
+    isDefinition: true
+    commentId: Overload:Backend.Core.Interfaces.IInscripcionRepository.UpdateInscripcion
+  Backend.Core.Interfaces.IInscripcionRepository:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IInscripcionRepository
+        name: IInscripcionRepository
+        nameWithType: IInscripcionRepository
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository
+      VB:
+      - id: Backend.Core.Interfaces.IInscripcionRepository
+        name: IInscripcionRepository
+        nameWithType: IInscripcionRepository
+        qualifiedName: Backend.Core.Interfaces.IInscripcionRepository
+    isDefinition: true
+    commentId: T:Backend.Core.Interfaces.IInscripcionRepository
+  Backend.Core.Interfaces.IMateriaRepository.GetMaterias*:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IMateriaRepository.GetMaterias*
+        name: GetMaterias
+        nameWithType: IMateriaRepository.GetMaterias
+        qualifiedName: Backend.Core.Interfaces.IMateriaRepository.GetMaterias
+      VB:
+      - id: Backend.Core.Interfaces.IMateriaRepository.GetMaterias*
+        name: GetMaterias
+        nameWithType: IMateriaRepository.GetMaterias
+        qualifiedName: Backend.Core.Interfaces.IMateriaRepository.GetMaterias
+    isDefinition: true
+    commentId: Overload:Backend.Core.Interfaces.IMateriaRepository.GetMaterias
+  Backend.Core.Interfaces.IMateriaRepository:
+    name:
+      CSharp:
+      - id: Backend.Core.Interfaces.IMateriaRepository
+        name: IMateriaRepository
+        nameWithType: IMateriaRepository
+        qualifiedName: Backend.Core.Interfaces.IMateriaRepository
+      VB:
+      - id: Backend.Core.Interfaces.IMateriaRepository
+        name: IMateriaRepository
+        nameWithType: IMateriaRepository
+        qualifiedName: Backend.Core.Interfaces.IMateriaRepository
+    isDefinition: true
+    commentId: T:Backend.Core.Interfaces.IMateriaRepository
+  Backend.Core.Interfaces:
+    name:
+      CSharp:
+      - name: Backend.Core.Interfaces
+        nameWithType: Backend.Core.Interfaces
+        qualifiedName: Backend.Core.Interfaces
+      VB:
+      - name: Backend.Core.Interfaces
+        nameWithType: Backend.Core.Interfaces
+        qualifiedName: Backend.Core.Interfaces
+    isDefinition: true
+    commentId: N:Backend.Core.Interfaces

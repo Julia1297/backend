@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\BackendCore\\Backend.Core.csproj",
+      "projectUniqueName": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\BackendCore\\Backend.Core.csproj",
       "projectName": "Backend.Core",
-      "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\BackendCore\\Backend.Core.csproj",
+      "projectPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\BackendCore\\Backend.Core.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\BackendCore\\obj\\",
+      "outputPath": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\BackendCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

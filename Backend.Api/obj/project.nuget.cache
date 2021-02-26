@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TiPSeTW+m7w8we2ulOKHDuXDN5NTO2Xq/qO8SHIl0YSN89JfBw1NbRUtsQ/7pol1AlfIUHMX69aa5KIxxMXKQg==",
+  "dgSpecHash": "aPuS7sj2QZnLQ0sP66DwsAHgvWYl/ncqIpriUizJmGPBWBMTeYUsR99gghwSLpwzzrsUda+b69CKN+wVhwG/8A==",
   "success": true,
-  "projectFilePath": "F:\\PROYECTO NACIONAL\\Desarrollo\\Microproyecto\\BackendAcademico\\Backend.Api\\Backend.Api.csproj",
+  "projectFilePath": "F:\\PROYECTO NACIONAL\\Desarrollo\\backend\\Backend.Api\\Backend.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
